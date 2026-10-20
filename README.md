@@ -307,6 +307,6 @@ Released under the [MIT License](LICENSE). See `LICENSE` for details.
 **HackLords** · Team ID `VTU-QFF-HC-0010` · Tier `Both`
 · Built with ⚛️ Qiskit for the VTU-QFF Hackathon
 
-[⬆ Back to Top](#HackLords)
+[⬆ Back to Top](#hacklords)
 
 </div>
