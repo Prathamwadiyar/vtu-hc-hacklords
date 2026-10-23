@@ -294,6 +294,7 @@ git push -u target feature/quantum-enhancement
 - [x] Zero-dependency Offline Demo Mode for hackathon jury evaluation
 - [x] Production Docker container & 1-click cloud deployment config verified
 - [x] Video walkthrough submitted: **[https://youtu.be/F4ThW7V9Y0U](https://youtu.be/F4ThW7V9Y0U)**
+- [x] Presentation deck submitted: **[docs/AAROGYAM_QiskitFallFest_Deck.pptx](docs/AAROGYAM_QiskitFallFest_Deck.pptx)**
 - [x] Code pushed to `main` and verified with automated test suites
 
 ---
