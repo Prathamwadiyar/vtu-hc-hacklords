@@ -17,6 +17,7 @@
 | **Team** | HackLords |
 | **Team ID** | VTU-QFF-HC-0010 |
 | **Tier** | Both (Online & Offline) |
+| **Live Web App** | **[https://aarogyamhacklords.vercel.app/](https://aarogyamhacklords.vercel.app/)** |
 | **Repository** | [vtu-hc-hacklords](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords.git) |
 | **Organisation** | [vtu-qiskit-fall-fest-2026](https://github.com/vtu-qiskit-fall-fest-2026) |
 | **Event** | VTU-QFF Hackathon — VTU-Qiskit Fall Fest 2026 |

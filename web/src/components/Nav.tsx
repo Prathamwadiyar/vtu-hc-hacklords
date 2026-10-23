@@ -205,7 +205,7 @@ export default function Nav() {
           </div>
 
           {/* GitHub CTA with gentle gradient glow */}
-          <a className="nav-github-btn" href="https://github.com/pranalib2026-cmyk/Aarogyam"
+          <a className="nav-github-btn" href="https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords"
             target="_blank" rel="noreferrer"
             style={{
               marginLeft: 8, padding: '7px 18px', borderRadius: 999,
