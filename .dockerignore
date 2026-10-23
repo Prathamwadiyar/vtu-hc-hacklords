@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+node_modules/
+web/dist/
+web/node_modules/
+data/raw/
+data/processed/
+.git/
+docs/
+*.md

@@ -1,0 +1,261 @@
+{
+  "generated": "2026-09-03 21:37:23",
+  "dataset": {
+    "molecular_features": [
+      "gene",
+      "var_type",
+      "cdna_pos_rel",
+      "intron_offset_abs",
+      "is_intronic",
+      "is_splice_site",
+      "is_utr",
+      "aa_pos_rel",
+      "log_var_len",
+      "is_truncating",
+      "is_frameshift",
+      "is_nonsense",
+      "is_missense",
+      "is_synonymous",
+      "is_inframe_indel",
+      "in_critical_domain",
+      "domain_idx",
+      "grantham",
+      "d_hydropathy",
+      "d_charge",
+      "d_volume",
+      "is_transition"
+    ],
+    "curation_features": [
+      "review_stars",
+      "log_n_submitters",
+      "submitter_categories",
+      "tested_in_gtr"
+    ],
+    "n_raw_rows": 75162,
+    "n_after_dedup": 37992,
+    "n_duplicate_rows_removed": 37170,
+    "n_labelled": 20296,
+    "n_pathogenic": 10683,
+    "n_benign": 9613,
+    "n_vus": 15581,
+    "n_brca1": 8442,
+    "n_brca2": 11854,
+    "split": {
+      "train": 14206,
+      "val": 3043,
+      "test": 3047
+    },
+    "seed": 42,
+    "source": "NCBI ClinVar variant_summary.txt.gz"
+  },
+  "models": {
+    "random_forest": {
+      "model": "Random Forest",
+      "accuracy": 0.982605841811618,
+      "precision": 0.9880427942101951,
+      "recall": 0.9788029925187033,
+      "f1": 0.983401190103351,
+      "roc_auc": 0.997647945278868,
+      "pr_auc": 0.9962302018799123,
+      "mcc": 0.9651794709167054,
+      "brier": 0.012721777441798804,
+      "confusion": {
+        "tn": 1424,
+        "fp": 19,
+        "fn": 34,
+        "tp": 1570
+      }
+    },
+    "svm": {
+      "model": "SVM (RBF)",
+      "accuracy": 0.9783393501805054,
+      "precision": 0.9904336734693877,
+      "recall": 0.9682044887780549,
+      "f1": 0.9791929382093316,
+      "roc_auc": 0.9936122099463746,
+      "pr_auc": 0.9958050629692747,
+      "mcc": 0.9568797453760978,
+      "brier": 0.01903431618227999,
+      "confusion": {
+        "tn": 1428,
+        "fp": 15,
+        "fn": 51,
+        "tp": 1553
+      }
+    },
+    "qsvm": {
+      "model": "QSVM (ZZFeatureMap)",
+      "accuracy": 0.9616015753199869,
+      "precision": 0.9702719797596457,
+      "recall": 0.956359102244389,
+      "f1": 0.963265306122449,
+      "roc_auc": 0.9891169944162463,
+      "pr_auc": 0.9922605436318008,
+      "mcc": 0.923155319611116,
+      "brier": 0.02802357750672098,
+      "confusion": {
+        "tn": 1396,
+        "fp": 47,
+        "fn": 70,
+        "tp": 1534
+      }
+    },
+    "vqc": {
+      "model": "VQC",
+      "accuracy": 0.8142435182146374,
+      "precision": 0.833547557840617,
+      "recall": 0.8086034912718204,
+      "f1": 0.8208860759493671,
+      "roc_auc": 0.8905149634576068,
+      "pr_auc": 0.916199215999686,
+      "mcc": 0.6283804648996371,
+      "brier": 0.13276151768438352,
+      "confusion": {
+        "tn": 1184,
+        "fp": 259,
+        "fn": 307,
+        "tp": 1297
+      }
+    },
+    "hybrid": {
+      "model": "Hybrid ensemble",
+      "accuracy": 0.9786675418444372,
+      "precision": 0.989192625556262,
+      "recall": 0.970074812967581,
+      "f1": 0.9795404469625433,
+      "roc_auc": 0.997402111491887,
+      "pr_auc": 0.9980734289503935,
+      "mcc": 0.9574606259376366,
+      "brier": 0.014126479385677213,
+      "confusion": {
+        "tn": 1426,
+        "fp": 17,
+        "fn": 48,
+        "tp": 1556
+      },
+      "weights": {
+        "classical": 0.98,
+        "quantum": 0.02
+      }
+    }
+  },
+  "hybrid_weights": {
+    "classical": 0.98,
+    "quantum": 0.02
+  },
+  "conformal": {
+    "alpha": 0.1,
+    "target_coverage": 0.9,
+    "empirical_coverage": 0.9031834591401379,
+    "coverage_benign": 0.9022869022869023,
+    "coverage_pathogenic": 0.9039900249376559,
+    "singleton_rate": 0.9058089924515917,
+    "abstention_rate": 0.09419100754840826,
+    "accuracy_on_confident_calls": 0.9971014492753624,
+    "qhat": {
+      "0": 0.0689475783575465,
+      "1": 0.030471908004020554
+    }
+  },
+  "disagreement": {
+    "auc_disagreement_detects_error": 0.6142857142857144,
+    "auc_margin_detects_error": 0.9573750193468504,
+    "auc_combined": 0.8770314192849404,
+    "mean_disagreement_correct": 0.12465510610955924,
+    "mean_disagreement_wrong": 0.16085625224538475,
+    "risk_coverage": [
+      {
+        "coverage": 0.0499,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.0975,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.1451,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.1926,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.2399,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.2875,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.3351,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.3823,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.4299,
+        "error": 0.0
+      },
+      {
+        "coverage": 0.4775,
+        "error": 0.0007
+      },
+      {
+        "coverage": 0.5251,
+        "error": 0.0012
+      },
+      {
+        "coverage": 0.5724,
+        "error": 0.0023
+      },
+      {
+        "coverage": 0.62,
+        "error": 0.0037
+      },
+      {
+        "coverage": 0.6675,
+        "error": 0.0039
+      },
+      {
+        "coverage": 0.7151,
+        "error": 0.005
+      },
+      {
+        "coverage": 0.7624,
+        "error": 0.0056
+      },
+      {
+        "coverage": 0.81,
+        "error": 0.0061
+      },
+      {
+        "coverage": 0.8576,
+        "error": 0.0069
+      },
+      {
+        "coverage": 0.9052,
+        "error": 0.0116
+      },
+      {
+        "coverage": 0.9524,
+        "error": 0.0138
+      },
+      {
+        "coverage": 1.0,
+        "error": 0.0213
+      }
+    ]
+  },
+  "leakage": {
+    "row_level_split_accuracy": 0.9934869739478958,
+    "variant_level_split_accuracy": 0.9832164328657315,
+    "inflation_points": 1.03,
+    "variants_shared_between_train_and_test": 6277,
+    "test_rows": 7984,
+    "note": "Both numbers use the same features, the same model and the same data. The only difference is whether the split respects variant identity."
+  }
+}

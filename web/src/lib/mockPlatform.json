@@ -1,0 +1,324 @@
+{
+  "overview": {
+    "generated": "2026-09-03 22:14:17",
+    "order": [
+      "brca_clinvar",
+      "breast_wdbc",
+      "heart_cleveland",
+      "parkinsons",
+      "diabetes_pima"
+    ],
+    "catalogue": [
+      {
+        "id": "brca_clinvar",
+        "name": "BRCA1 / BRCA2 variant pathogenicity",
+        "disease": "Hereditary breast and ovarian cancer",
+        "domain": "cancer",
+        "modality": "genomics",
+        "n_samples": 20296,
+        "n_features": 22,
+        "missing_rate": 0.0,
+        "prevalence": 0.5264,
+        "positive_label": "Pathogenic",
+        "negative_label": "Benign",
+        "source": "NCBI ClinVar variant_summary",
+        "description": "Every classified BRCA1 and BRCA2 variant in ClinVar, described by molecular features derived from the HGVS notation: consequence class, Grantham chemical distance, hydropathy and charge shifts, functional-domain membership and splice proximity.",
+        "n_qubits": 8,
+        "notes": "Collapsed to one row per variant before splitting; 37,170 duplicate assembly rows removed. 15,581 unresolved variants held out for the VUS Resolver."
+      },
+      {
+        "id": "breast_wdbc",
+        "name": "Breast cancer \u2014 diagnostic imaging features",
+        "disease": "Breast cancer",
+        "domain": "cancer",
+        "modality": "imaging-derived",
+        "n_samples": 569,
+        "n_features": 30,
+        "missing_rate": 0.0,
+        "prevalence": 0.3726,
+        "positive_label": "Malignant",
+        "negative_label": "Benign",
+        "source": "UCI / Wisconsin Diagnostic Breast Cancer (WDBC)",
+        "description": "Thirty morphological features \u2014 radius, texture, concavity and their worst-case statistics \u2014 computed from digitised images of fine-needle aspirates of a breast mass.",
+        "n_qubits": 6,
+        "notes": "The canonical benchmark for quantum-kernel classification papers."
+      },
+      {
+        "id": "heart_cleveland",
+        "name": "Coronary artery disease",
+        "disease": "Coronary artery disease",
+        "domain": "cardiovascular",
+        "modality": "clinical records",
+        "n_samples": 303,
+        "n_features": 13,
+        "missing_rate": 0.00152,
+        "prevalence": 0.4587,
+        "positive_label": "Disease present",
+        "negative_label": "No disease",
+        "source": "UCI Heart Disease (Cleveland), Detrano et al.",
+        "description": "Thirteen routine clinical measurements \u2014 resting blood pressure, cholesterol, exercise-induced angina, ST depression and vessel counts \u2014 used to predict angiographic coronary disease.",
+        "n_qubits": 6,
+        "notes": "Contains genuine missing values, which the imputation stage handles."
+      },
+      {
+        "id": "parkinsons",
+        "name": "Parkinson's disease \u2014 voice biomarkers",
+        "disease": "Parkinson's disease",
+        "domain": "neurological",
+        "modality": "voice signal",
+        "n_samples": 195,
+        "n_features": 22,
+        "missing_rate": 0.0,
+        "prevalence": 0.7538,
+        "positive_label": "Parkinson's",
+        "negative_label": "Healthy control",
+        "source": "UCI Parkinsons, Little et al. (2007)",
+        "description": "Twenty-two acoustic measures of sustained phonation \u2014 jitter, shimmer, harmonic-to-noise ratio and nonlinear dynamical measures \u2014 recorded from 31 people, 23 with Parkinson's.",
+        "n_qubits": 6,
+        "notes": "Small and high-dimensional: 195 recordings against 22 features, the low-data regime where quantum kernels are argued to help."
+      },
+      {
+        "id": "diabetes_pima",
+        "name": "Type 2 diabetes onset",
+        "disease": "Type 2 diabetes",
+        "domain": "metabolic",
+        "modality": "clinical records",
+        "n_samples": 768,
+        "n_features": 8,
+        "missing_rate": 0.10612,
+        "prevalence": 0.349,
+        "positive_label": "Diabetes",
+        "negative_label": "No diabetes",
+        "source": "UCI Pima Indians Diabetes (NIDDK)",
+        "description": "Eight routine measurements \u2014 plasma glucose, BMI, blood pressure, serum insulin and family history \u2014 recorded to predict diabetes onset within five years.",
+        "n_qubits": 6,
+        "notes": "Zeros in glucose, blood pressure, skin fold, insulin and BMI are recording gaps rather than real values, so they are restored to missing before imputation."
+      }
+    ],
+    "comparison": [
+      {
+        "dataset": "brca_clinvar",
+        "name": "BRCA1 / BRCA2 variant pathogenicity",
+        "domain": "cancer",
+        "n_samples": 20296,
+        "classical": 0.9975725533705584,
+        "quantum": 0.9900785112755188,
+        "hybrid": 0.99766781936358,
+        "gap": -0.0075,
+        "quantum_weight": 0.03
+      },
+      {
+        "dataset": "breast_wdbc",
+        "name": "Breast cancer \u2014 diagnostic imaging features",
+        "domain": "cancer",
+        "n_samples": 569,
+        "classical": 0.996362433862434,
+        "quantum": 0.9976851851851852,
+        "hybrid": 0.996031746031746,
+        "gap": 0.0013,
+        "quantum_weight": 0.0
+      },
+      {
+        "dataset": "heart_cleveland",
+        "name": "Coronary artery disease",
+        "domain": "cardiovascular",
+        "n_samples": 303,
+        "classical": 0.9274891774891775,
+        "quantum": 0.949134199134199,
+        "hybrid": 0.9285714285714286,
+        "gap": 0.0216,
+        "quantum_weight": 0.06
+      },
+      {
+        "dataset": "parkinsons",
+        "name": "Parkinson's disease \u2014 voice biomarkers",
+        "domain": "neurological",
+        "n_samples": 195,
+        "classical": 0.9172413793103449,
+        "quantum": 0.8793103448275862,
+        "hybrid": 0.8862068965517241,
+        "gap": -0.0379,
+        "quantum_weight": 0.26
+      },
+      {
+        "dataset": "diabetes_pima",
+        "name": "Type 2 diabetes onset",
+        "domain": "metabolic",
+        "n_samples": 768,
+        "classical": 0.7941341303941716,
+        "quantum": 0.7621894264898188,
+        "hybrid": 0.7958154305996638,
+        "gap": -0.0319,
+        "quantum_weight": 0.0
+      }
+    ]
+  },
+  "heart_cleveland": {
+    "dataset": {
+      "id": "heart_cleveland",
+      "name": "Coronary artery disease",
+      "disease": "Coronary artery disease",
+      "domain": "cardiovascular",
+      "modality": "clinical records",
+      "n_samples": 303,
+      "n_features": 13,
+      "missing_rate": 0.00152,
+      "prevalence": 0.4587,
+      "positive_label": "Disease present",
+      "negative_label": "No disease",
+      "source": "UCI Heart Disease (Cleveland), Detrano et al.",
+      "description": "Thirteen routine clinical measurements \u2014 resting blood pressure, cholesterol, exercise-induced angina, ST depression and vessel counts \u2014 used to predict angiographic coronary disease.",
+      "n_qubits": 6,
+      "notes": "Contains genuine missing values, which the imputation stage handles."
+    },
+    "features": [
+      {
+        "name": "age",
+        "median": 56.0,
+        "min": 40.0,
+        "max": 68.0
+      },
+      {
+        "name": "sex",
+        "median": 1.0,
+        "min": 0.0,
+        "max": 1.0
+      },
+      {
+        "name": "chest_pain_type",
+        "median": 3.0,
+        "min": 1.0,
+        "max": 4.0
+      },
+      {
+        "name": "resting_bp",
+        "median": 130.0,
+        "min": 108.0,
+        "max": 160.0
+      },
+      {
+        "name": "cholesterol",
+        "median": 241.0,
+        "min": 175.1,
+        "max": 326.9
+      },
+      {
+        "name": "fasting_blood_sugar",
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0
+      },
+      {
+        "name": "resting_ecg",
+        "median": 1.0,
+        "min": 0.0,
+        "max": 2.0
+      },
+      {
+        "name": "max_heart_rate",
+        "median": 153.0,
+        "min": 108.1,
+        "max": 181.9
+      },
+      {
+        "name": "exercise_angina",
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0
+      },
+      {
+        "name": "st_depression",
+        "median": 0.8,
+        "min": 0.0,
+        "max": 3.4
+      },
+      {
+        "name": "st_slope",
+        "median": 2.0,
+        "min": 1.0,
+        "max": 3.0
+      },
+      {
+        "name": "major_vessels",
+        "median": 0.0,
+        "min": 0.0,
+        "max": 3.0
+      },
+      {
+        "name": "thalassemia",
+        "median": 3.0,
+        "min": 3.0,
+        "max": 7.0
+      }
+    ]
+  },
+  "diabetes_pima": {
+    "dataset": {
+      "id": "diabetes_pima",
+      "name": "Type 2 diabetes onset",
+      "disease": "Type 2 diabetes",
+      "domain": "metabolic",
+      "modality": "clinical records",
+      "n_samples": 768,
+      "n_features": 8,
+      "missing_rate": 0.10612,
+      "prevalence": 0.349,
+      "positive_label": "Diabetes",
+      "negative_label": "No diabetes",
+      "source": "UCI Pima Indians Diabetes (NIDDK)",
+      "description": "Eight routine measurements \u2014 plasma glucose, BMI, blood pressure, serum insulin and family history \u2014 recorded to predict diabetes onset within five years.",
+      "n_qubits": 6,
+      "notes": "Zeros in glucose, blood pressure, skin fold, insulin and BMI are recording gaps rather than real values, so they are restored to missing before imputation."
+    },
+    "features": [
+      {
+        "name": "pregnancies",
+        "median": 3.0,
+        "min": 0.0,
+        "max": 10.0
+      },
+      {
+        "name": "glucose",
+        "median": 117.0,
+        "min": 80.0,
+        "max": 181.0
+      },
+      {
+        "name": "blood_pressure",
+        "median": 72.0,
+        "min": 52.0,
+        "max": 92.0
+      },
+      {
+        "name": "skin_thickness",
+        "median": 29.0,
+        "min": 13.0,
+        "max": 46.0
+      },
+      {
+        "name": "insulin",
+        "median": 125.0,
+        "min": 41.65,
+        "max": 395.5
+      },
+      {
+        "name": "bmi",
+        "median": 32.3,
+        "min": 22.2,
+        "max": 44.5
+      },
+      {
+        "name": "diabetes_pedigree",
+        "median": 0.3725,
+        "min": 0.1404,
+        "max": 1.1328
+      },
+      {
+        "name": "age",
+        "median": 29.0,
+        "min": 21.0,
+        "max": 58.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,4619 @@
+{
+  "patients": [
+    {
+      "id": "PAT-DEMO-01",
+      "name": "Elena Rostova",
+      "age": 58,
+      "gender": "Female",
+      "email": "elena.rostova@demo.internal",
+      "phone": "+91 98765 43210",
+      "medical_history": "Mild essential hypertension diagnosed 2023. Non-smoker.",
+      "created_at": "2026-10-15T09:30:00Z"
+    },
+    {
+      "id": "PAT-DEMO-02",
+      "name": "Marcus Vance",
+      "age": 44,
+      "gender": "Male",
+      "email": "marcus.vance@demo.internal",
+      "phone": "+91 98111 22334",
+      "medical_history": "Borderline fasting glucose 2025. Moderate sedentary activity.",
+      "created_at": "2026-10-16T11:15:00Z"
+    },
+    {
+      "id": "PAT-DEMO-03",
+      "name": "Amina Al-Mansoor",
+      "age": 62,
+      "gender": "Female",
+      "email": "amina.mansoor@demo.internal",
+      "phone": "+91 98222 33445",
+      "medical_history": "Routine geriatric cardiology follow-up. Normal baseline ECG.",
+      "created_at": "2026-10-18T14:00:00Z"
+    },
+    {
+      "id": "PAT-DEMO-04",
+      "name": "David Chen",
+      "age": 51,
+      "gender": "Male",
+      "email": "david.chen@demo.internal",
+      "phone": "+91 98333 44556",
+      "medical_history": "Family history of type-2 diabetes mellitus. High BMI.",
+      "created_at": "2026-10-19T10:45:00Z"
+    },
+    {
+      "id": "PAT-DEMO-05",
+      "name": "Sarah O'Connor",
+      "age": 39,
+      "gender": "Female",
+      "email": "sarah.oconnor@demo.internal",
+      "phone": "+91 98444 55667",
+      "medical_history": "Atypical chest discomfort post-exercise. Workup negative for infarction.",
+      "created_at": "2026-10-20T16:20:00Z"
+    },
+    {
+      "id": "PAT-DEMO-06",
+      "name": "Priya Sharma",
+      "age": 29,
+      "gender": "Female",
+      "email": "priya.sharma@demo.internal",
+      "phone": "+91 98555 66778",
+      "medical_history": "Standard executive wellness check. Marathon runner.",
+      "created_at": "2026-10-21T08:00:00Z"
+    },
+    {
+      "id": "PAT-DEMO-07",
+      "name": "Rajeshwari Patel",
+      "age": 64,
+      "gender": "Female",
+      "email": "rajeshwari.patel@demo.internal",
+      "phone": "+91 98666 77889",
+      "medical_history": "Post-menopausal hypercholesterolemia. Moderate exertional dyspnea.",
+      "created_at": "2026-10-10T08:15:00Z"
+    },
+    {
+      "id": "PAT-DEMO-08",
+      "name": "Vikram Malhotra",
+      "age": 52,
+      "gender": "Male",
+      "email": "vikram.malhotra@demo.internal",
+      "phone": "+91 98777 88990",
+      "medical_history": "Smoker (15 pack-years). Borderline elevated resting blood pressure.",
+      "created_at": "2026-10-11T13:40:00Z"
+    },
+    {
+      "id": "PAT-DEMO-09",
+      "name": "Arjun Singhania",
+      "age": 47,
+      "gender": "Male",
+      "email": "arjun.singhania@demo.internal",
+      "phone": "+91 98888 99001",
+      "medical_history": "High-stress corporate role. Occasional palpitations after high caffeine intake.",
+      "created_at": "2026-10-12T11:00:00Z"
+    },
+    {
+      "id": "PAT-DEMO-10",
+      "name": "Kavita Deshmukh",
+      "age": 59,
+      "gender": "Female",
+      "email": "kavita.deshmukh@demo.internal",
+      "phone": "+91 98999 00112",
+      "medical_history": "Mild osteopenia, sedentary lifestyle, elevated LDL cholesterol.",
+      "created_at": "2026-10-13T15:20:00Z"
+    },
+    {
+      "id": "PAT-DEMO-11",
+      "name": "Robert MacIntyre",
+      "age": 68,
+      "gender": "Male",
+      "email": "robert.macintyre@demo.internal",
+      "phone": "+91 98123 45678",
+      "medical_history": "Previous transient ischemic attack 2021. Statin therapy.",
+      "created_at": "2026-10-14T09:10:00Z"
+    },
+    {
+      "id": "PAT-DEMO-12",
+      "name": "Zainab Fatima",
+      "age": 42,
+      "gender": "Female",
+      "email": "zainab.fatima@demo.internal",
+      "phone": "+91 98234 56789",
+      "medical_history": "Pre-hypertension monitored during second pregnancy. Otherwise healthy.",
+      "created_at": "2026-10-15T14:30:00Z"
+    },
+    {
+      "id": "PAT-DEMO-13",
+      "name": "Karthik Subramanian",
+      "age": 55,
+      "gender": "Male",
+      "email": "karthik.subramanian@demo.internal",
+      "phone": "+91 98345 67890",
+      "medical_history": "Moderate hypertriglyceridemia, regular walker, non-smoker.",
+      "created_at": "2026-10-16T10:00:00Z"
+    },
+    {
+      "id": "PAT-DEMO-14",
+      "name": "Ananya Joshi",
+      "age": 60,
+      "gender": "Female",
+      "email": "ananya.joshi@demo.internal",
+      "phone": "+91 98456 78901",
+      "medical_history": "Mild mitral valve prolapse with trace regurgitation, asymptomatic.",
+      "created_at": "2026-10-17T12:15:00Z"
+    },
+    {
+      "id": "PAT-DEMO-15",
+      "name": "Devendra Rao",
+      "age": 71,
+      "gender": "Male",
+      "email": "devendra.rao@demo.internal",
+      "phone": "+91 98567 89012",
+      "medical_history": "Chronic stable angina, prior coronary stenting 2019.",
+      "created_at": "2026-10-18T08:45:00Z"
+    },
+    {
+      "id": "PAT-DEMO-16",
+      "name": "Meera Nambiar",
+      "age": 36,
+      "gender": "Female",
+      "email": "meera.nambiar@demo.internal",
+      "phone": "+91 98678 90123",
+      "medical_history": "Regular cardiovascular fitness test for pilot medical clearance.",
+      "created_at": "2026-10-19T11:20:00Z"
+    },
+    {
+      "id": "PAT-DEMO-17",
+      "name": "Siddharth Varma",
+      "age": 49,
+      "gender": "Male",
+      "email": "siddharth.varma@demo.internal",
+      "phone": "+91 98789 01234",
+      "medical_history": "Elevated ApoB levels, family history of early myocardial infarction in father.",
+      "created_at": "2026-10-20T15:00:00Z"
+    },
+    {
+      "id": "PAT-DEMO-18",
+      "name": "Hannah Lindqvist",
+      "age": 53,
+      "gender": "Female",
+      "email": "hannah.lindqvist@demo.internal",
+      "phone": "+91 98890 12345",
+      "medical_history": "Mild hypertension controlled on ACE inhibitors, good exercise tolerance.",
+      "created_at": "2026-10-21T10:40:00Z"
+    },
+    {
+      "id": "PAT-DEMO-19",
+      "name": "Sunita Kulkarni",
+      "age": 56,
+      "gender": "Female",
+      "email": "sunita.kulkarni@demo.internal",
+      "phone": "+91 98901 23456",
+      "medical_history": "History of gestational diabetes during second child. Mild acanthosis nigricans.",
+      "created_at": "2026-10-11T10:30:00Z"
+    },
+    {
+      "id": "PAT-DEMO-20",
+      "name": "Farhan Akhtar",
+      "age": 38,
+      "gender": "Male",
+      "email": "farhan.akhtar@demo.internal",
+      "phone": "+91 98012 34567",
+      "medical_history": "Sedentary desk worker, elevated HbA1c (6.1%) on recent screening.",
+      "created_at": "2026-10-12T14:00:00Z"
+    },
+    {
+      "id": "PAT-DEMO-21",
+      "name": "Grace Hopper-Wong",
+      "age": 46,
+      "gender": "Female",
+      "email": "grace.wong@demo.internal",
+      "phone": "+91 98124 56789",
+      "medical_history": "Polycystic ovary syndrome (PCOS), insulin resistance monitored annually.",
+      "created_at": "2026-10-13T09:45:00Z"
+    },
+    {
+      "id": "PAT-DEMO-22",
+      "name": "Naveen Reddy",
+      "age": 33,
+      "gender": "Male",
+      "email": "naveen.reddy@demo.internal",
+      "phone": "+91 98235 67890",
+      "medical_history": "Regular gym attendee, high protein diet, normal blood chemistry.",
+      "created_at": "2026-10-14T16:10:00Z"
+    },
+    {
+      "id": "PAT-DEMO-23",
+      "name": "Fatima Noor",
+      "age": 61,
+      "gender": "Female",
+      "email": "fatima.noor@demo.internal",
+      "phone": "+91 98346 78901",
+      "medical_history": "Confirmed type-2 diabetes on metformin 500mg BD. Baseline neuropathy evaluation.",
+      "created_at": "2026-10-15T11:20:00Z"
+    },
+    {
+      "id": "PAT-DEMO-24",
+      "name": "Deepak Mehta",
+      "age": 48,
+      "gender": "Male",
+      "email": "deepak.mehta@demo.internal",
+      "phone": "+91 98457 89012",
+      "medical_history": "Moderate metabolic syndrome. Triglycerides 220 mg/dL, HDL 38 mg/dL.",
+      "created_at": "2026-10-16T13:30:00Z"
+    },
+    {
+      "id": "PAT-DEMO-25",
+      "name": "Maya Krishnan",
+      "age": 27,
+      "gender": "Female",
+      "email": "maya.krishnan@demo.internal",
+      "phone": "+91 98568 90123",
+      "medical_history": "Pre-employment health physical. Vegetarian diet, no known chronic conditions.",
+      "created_at": "2026-10-17T09:15:00Z"
+    },
+    {
+      "id": "PAT-DEMO-26",
+      "name": "Tariq Mansuri",
+      "age": 54,
+      "gender": "Male",
+      "email": "tariq.mansuri@demo.internal",
+      "phone": "+91 98679 01234",
+      "medical_history": "Hypertensive, pre-diabetic fasting blood sugars, mild peripheral edema.",
+      "created_at": "2026-10-18T10:50:00Z"
+    },
+    {
+      "id": "PAT-DEMO-27",
+      "name": "Ritu Sengupta",
+      "age": 41,
+      "gender": "Female",
+      "email": "ritu.sengupta@demo.internal",
+      "phone": "+91 98780 12345",
+      "medical_history": "Borderline OGTT 2 hours post-load (155 mg/dL). Prescribed dietary modifications.",
+      "created_at": "2026-10-19T14:10:00Z"
+    },
+    {
+      "id": "PAT-DEMO-28",
+      "name": "Harish Chandra",
+      "age": 67,
+      "gender": "Male",
+      "email": "harish.chandra@demo.internal",
+      "phone": "+91 98891 23456",
+      "medical_history": "Longstanding type-2 diabetes mellitus with early diabetic retinopathy.",
+      "created_at": "2026-10-20T11:45:00Z"
+    },
+    {
+      "id": "PAT-DEMO-29",
+      "name": "Leila Benali",
+      "age": 35,
+      "gender": "Female",
+      "email": "leila.benali@demo.internal",
+      "phone": "+91 98902 34567",
+      "medical_history": "Postpartum metabolic review at 6 months. Weight retention 8 kg post-delivery.",
+      "created_at": "2026-10-21T13:00:00Z"
+    },
+    {
+      "id": "PAT-DEMO-30",
+      "name": "Gurpreet Singh",
+      "age": 45,
+      "gender": "Male",
+      "email": "gurpreet.singh@demo.internal",
+      "phone": "+91 98013 45678",
+      "medical_history": "Routine preventive executive screening. Moderate physical fitness.",
+      "created_at": "2026-10-22T09:00:00Z"
+    }
+  ],
+  "screenings": [
+    {
+      "id": "SCR-2026-001",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 58,
+        "sex": 0,
+        "cp": 2,
+        "trestbps": 162,
+        "chol": 284,
+        "fbs": 1,
+        "restecg": 1,
+        "thalach": 138,
+        "exang": 1,
+        "oldpeak": 2.4,
+        "slope": 1,
+        "ca": 2,
+        "thal": 3
+      },
+      "probability": 0.78,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 95.0,
+      "prediction_label": "Heart disease presence likely",
+      "model_consensus": {
+        "logistic_regression": 0.76,
+        "random_forest": 0.72,
+        "svm": 0.74,
+        "qsvm": 0.81,
+        "vqc": 0.84,
+        "qnn": 0.8,
+        "hybrid": 0.78
+      },
+      "explanation": [
+        {
+          "feature": "oldpeak",
+          "value": 2.4,
+          "contribution": 0.28,
+          "direction": "increases_risk"
+        },
+        {
+          "feature": "trestbps",
+          "value": 162,
+          "contribution": 0.22,
+          "direction": "increases_risk"
+        },
+        {
+          "feature": "chol",
+          "value": 284,
+          "contribution": 0.16,
+          "direction": "increases_risk"
+        }
+      ],
+      "latency_ms": 142.0,
+      "created_at": "2026-10-21T10:15:00Z"
+    },
+    {
+      "id": "SCR-2026-002",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 142,
+        "bloodpressure": 82,
+        "skinthickness": 28,
+        "insulin": 125,
+        "bmi": 31.4,
+        "diabetespedigreefunction": 0.62,
+        "age": 44
+      },
+      "probability": 0.49,
+      "risk_tier": "Moderate",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes presence likely",
+      "model_consensus": {
+        "logistic_regression": 0.52,
+        "random_forest": 0.54,
+        "svm": 0.53,
+        "qsvm": 0.46,
+        "vqc": 0.42,
+        "qnn": 0.45,
+        "hybrid": 0.49
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 142,
+          "contribution": 0.24,
+          "direction": "increases_risk"
+        },
+        {
+          "feature": "bmi",
+          "value": 31.4,
+          "contribution": 0.18,
+          "direction": "increases_risk"
+        }
+      ],
+      "latency_ms": 98.0,
+      "created_at": "2026-10-20T12:00:00Z"
+    },
+    {
+      "id": "SCR-2026-003",
+      "patient_id": "PAT-DEMO-03",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 62,
+        "sex": 0,
+        "cp": 0,
+        "trestbps": 118,
+        "chol": 192,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 158,
+        "exang": 0,
+        "oldpeak": 0.2,
+        "slope": 0,
+        "ca": 0,
+        "thal": 1
+      },
+      "probability": 0.18,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 95.0,
+      "prediction_label": "No heart disease detected",
+      "model_consensus": {
+        "logistic_regression": 0.19,
+        "random_forest": 0.21,
+        "svm": 0.2,
+        "qsvm": 0.16,
+        "vqc": 0.15,
+        "qnn": 0.17,
+        "hybrid": 0.18
+      },
+      "explanation": [
+        {
+          "feature": "thalach",
+          "value": 158,
+          "contribution": -0.21,
+          "direction": "decreases_risk"
+        },
+        {
+          "feature": "trestbps",
+          "value": 118,
+          "contribution": -0.15,
+          "direction": "decreases_risk"
+        }
+      ],
+      "latency_ms": 110.0,
+      "created_at": "2026-10-19T09:40:00Z"
+    },
+    {
+      "id": "SCR-2026-004",
+      "patient_id": "PAT-DEMO-04",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 188,
+        "bloodpressure": 90,
+        "skinthickness": 35,
+        "insulin": 210,
+        "bmi": 36.8,
+        "diabetespedigreefunction": 0.88,
+        "age": 51
+      },
+      "probability": 0.89,
+      "risk_tier": "Very high",
+      "conformal_status": "committed",
+      "conformal_confidence": 95.0,
+      "prediction_label": "Diabetes presence likely",
+      "model_consensus": {
+        "logistic_regression": 0.85,
+        "random_forest": 0.88,
+        "svm": 0.86,
+        "qsvm": 0.9,
+        "vqc": 0.92,
+        "qnn": 0.91,
+        "hybrid": 0.89
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 188,
+          "contribution": 0.38,
+          "direction": "increases_risk"
+        },
+        {
+          "feature": "bmi",
+          "value": 36.8,
+          "contribution": 0.26,
+          "direction": "increases_risk"
+        }
+      ],
+      "latency_ms": 105.0,
+      "created_at": "2026-10-18T15:20:00Z"
+    },
+    {
+      "id": "SCR-2026-005",
+      "patient_id": "PAT-DEMO-05",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 39,
+        "sex": 0,
+        "cp": 1,
+        "trestbps": 135,
+        "chol": 238,
+        "fbs": 0,
+        "restecg": 1,
+        "thalach": 140,
+        "exang": 1,
+        "oldpeak": 1.2,
+        "slope": 1,
+        "ca": 0,
+        "thal": 2
+      },
+      "probability": 0.52,
+      "risk_tier": "Moderate",
+      "conformal_status": "abstained",
+      "conformal_confidence": 95.0,
+      "prediction_label": "Uncertain - model abstained",
+      "model_consensus": {
+        "logistic_regression": 0.44,
+        "random_forest": 0.42,
+        "svm": 0.43,
+        "qsvm": 0.6,
+        "vqc": 0.62,
+        "qnn": 0.61,
+        "hybrid": 0.52
+      },
+      "explanation": [],
+      "latency_ms": 128.0,
+      "created_at": "2026-10-17T11:10:00Z"
+    },
+    {
+      "id": "SCR-2026-006",
+      "patient_id": "PAT-DEMO-06",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 88,
+        "bloodpressure": 68,
+        "skinthickness": 18,
+        "insulin": 64,
+        "bmi": 22.1,
+        "diabetespedigreefunction": 0.24,
+        "age": 29
+      },
+      "probability": 0.08,
+      "risk_tier": "Very low",
+      "conformal_status": "committed",
+      "conformal_confidence": 95.0,
+      "prediction_label": "No diabetes detected",
+      "model_consensus": {
+        "logistic_regression": 0.1,
+        "random_forest": 0.1,
+        "svm": 0.1,
+        "qsvm": 0.06,
+        "vqc": 0.05,
+        "qnn": 0.06,
+        "hybrid": 0.08
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 88,
+          "contribution": -0.32,
+          "direction": "decreases_risk"
+        },
+        {
+          "feature": "bmi",
+          "value": 22.1,
+          "contribution": -0.2,
+          "direction": "decreases_risk"
+        }
+      ],
+      "latency_ms": 92.0,
+      "created_at": "2026-10-15T14:30:00Z"
+    },
+    {
+      "id": "SCR-20261023052416-0316",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "ca": 0,
+        "chol": 240,
+        "cp": 2,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 1.2,
+        "restecg": 0,
+        "sex": 1,
+        "slope": 1,
+        "thal": 2,
+        "thalach": 150,
+        "trestbps": 140
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 50.0,
+      "created_at": "2026-10-23T05:24:16.827705+00:00"
+    },
+    {
+      "id": "SCR-20261023052953-3406",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "ca": 0,
+        "chol": 240,
+        "cp": 2,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 1.2,
+        "restecg": 0,
+        "sex": 1,
+        "slope": 1,
+        "thal": 2,
+        "thalach": 150,
+        "trestbps": 140
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 109.6,
+      "created_at": "2026-10-23T05:29:53.246635+00:00"
+    },
+    {
+      "id": "SCR-20261023055313-1232",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 60,
+        "chest_pain_type": 3,
+        "cholesterol": 260,
+        "exercise_angina": 1,
+        "fasting_blood_sugar": 0,
+        "major_vessels": 1,
+        "max_heart_rate": 140,
+        "resting_bp": 140,
+        "resting_ecg": 0,
+        "sex": 1,
+        "st_depression": 2.0,
+        "st_slope": 2,
+        "thalassemia": 3
+      },
+      "probability": 0.7183,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Disease present",
+      "model_consensus": {
+        "logistic_regression": 0.8077,
+        "random_forest": 0.6424,
+        "svm": 0.7201,
+        "qsvm": 0.4476,
+        "vqc": 0.5727,
+        "qnn": 0.7836,
+        "classical_mean": 0.7208,
+        "quantum_mean": 0.6785,
+        "hybrid": 0.7183
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.12516,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.09281,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 1.0,
+          "contribution": 0.08472,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 1.0,
+          "contribution": 0.07981,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "st_depression",
+          "value": 2.0,
+          "contribution": 0.0566,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 60.0,
+          "contribution": 0.04866,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 140.0,
+          "contribution": 0.03589,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.03153,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 60.6,
+      "created_at": "2026-10-23T05:53:13.175815+00:00"
+    },
+    {
+      "id": "SCR-20261023055345-5654",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 62,
+        "chest_pain_type": 3,
+        "cholesterol": 270,
+        "exercise_angina": 1,
+        "fasting_blood_sugar": 0,
+        "major_vessels": 2,
+        "max_heart_rate": 135,
+        "resting_bp": 150,
+        "resting_ecg": 1,
+        "sex": 1,
+        "st_depression": 2.2,
+        "st_slope": 2,
+        "thalassemia": 3
+      },
+      "probability": 0.8083,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Disease present",
+      "model_consensus": {
+        "logistic_regression": 0.9508,
+        "random_forest": 0.6771,
+        "svm": 0.8174,
+        "qsvm": 0.5115,
+        "vqc": 0.4722,
+        "qnn": 0.9239,
+        "classical_mean": 0.8106,
+        "quantum_mean": 0.7722,
+        "hybrid": 0.8083
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.12106,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 2.0,
+          "contribution": 0.09983,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08587,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 1.0,
+          "contribution": 0.08153,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 135.0,
+          "contribution": 0.06147,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "st_depression",
+          "value": 2.2,
+          "contribution": 0.05702,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 62.0,
+          "contribution": 0.04123,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.03152,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 62.2,
+      "created_at": "2026-10-23T05:53:45.430571+00:00"
+    },
+    {
+      "id": "SCR-20261023055401-9124",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "ca": 0,
+        "chol": 240,
+        "cp": 2,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 1.2,
+        "restecg": 0,
+        "sex": 1,
+        "slope": 1,
+        "thal": 2,
+        "thalach": 150,
+        "trestbps": 140
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 66.5,
+      "created_at": "2026-10-23T05:54:01.571415+00:00"
+    },
+    {
+      "id": "SCR-20261023060739-0416",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "ca": 0,
+        "chol": 240,
+        "cp": 2,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 1.2,
+        "restecg": 0,
+        "sex": 1,
+        "slope": 1,
+        "thal": 2,
+        "thalach": 150,
+        "trestbps": 140
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 145.2,
+      "created_at": "2026-10-23T06:07:39.744829+00:00"
+    },
+    {
+      "id": "SCR-20261023060741-8508",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 62,
+        "chest_pain_type": 3,
+        "cholesterol": 270,
+        "exercise_angina": 1,
+        "fasting_blood_sugar": 0,
+        "major_vessels": 2,
+        "max_heart_rate": 135,
+        "resting_bp": 150,
+        "resting_ecg": 1,
+        "sex": 1,
+        "st_depression": 2.2,
+        "st_slope": 2,
+        "thalassemia": 3
+      },
+      "probability": 0.8083,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Disease present",
+      "model_consensus": {
+        "logistic_regression": 0.9508,
+        "random_forest": 0.6771,
+        "svm": 0.8174,
+        "qsvm": 0.5115,
+        "vqc": 0.4722,
+        "qnn": 0.9239,
+        "classical_mean": 0.8106,
+        "quantum_mean": 0.7722,
+        "hybrid": 0.8083
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.12106,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 2.0,
+          "contribution": 0.09983,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08587,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 1.0,
+          "contribution": 0.08153,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 135.0,
+          "contribution": 0.06147,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "st_depression",
+          "value": 2.2,
+          "contribution": 0.05702,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 62.0,
+          "contribution": 0.04123,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.03152,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 114.0,
+      "created_at": "2026-10-23T06:07:41.905351+00:00"
+    },
+    {
+      "id": "SCR-20261023061406-5425",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 58,
+        "ca": 0,
+        "chol": 224,
+        "cp": 1,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 0.8,
+        "restecg": 0,
+        "sex": 0,
+        "slope": 0,
+        "thal": 1,
+        "thalach": 162,
+        "trestbps": 136
+      },
+      "probability": 0.1138,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1034,
+        "random_forest": 0.1434,
+        "svm": 0.0691,
+        "qsvm": 0.4473,
+        "vqc": 0.6238,
+        "qnn": 0.0778,
+        "classical_mean": 0.1064,
+        "quantum_mean": 0.2303,
+        "hybrid": 0.1138
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10694,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08967,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07433,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05858,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04691,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 58.0,
+          "contribution": 0.03946,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02775,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02546,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 120.3,
+      "created_at": "2026-10-23T06:14:06.862582+00:00"
+    },
+    {
+      "id": "SCR-20261023061428-3018",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "ca": 0,
+        "chol": 240,
+        "cp": 2,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 1.2,
+        "restecg": 0,
+        "sex": 1,
+        "slope": 1,
+        "thal": 2,
+        "thalach": 150,
+        "trestbps": 140
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 111.7,
+      "created_at": "2026-10-23T06:14:28.074168+00:00"
+    },
+    {
+      "id": "SCR-20261023061429-2608",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 62,
+        "chest_pain_type": 3,
+        "cholesterol": 270,
+        "exercise_angina": 1,
+        "fasting_blood_sugar": 0,
+        "major_vessels": 2,
+        "max_heart_rate": 135,
+        "resting_bp": 150,
+        "resting_ecg": 1,
+        "sex": 1,
+        "st_depression": 2.2,
+        "st_slope": 2,
+        "thalassemia": 3
+      },
+      "probability": 0.8083,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Disease present",
+      "model_consensus": {
+        "logistic_regression": 0.9508,
+        "random_forest": 0.6771,
+        "svm": 0.8174,
+        "qsvm": 0.5115,
+        "vqc": 0.4722,
+        "qnn": 0.9239,
+        "classical_mean": 0.8106,
+        "quantum_mean": 0.7722,
+        "hybrid": 0.8083
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.12106,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 2.0,
+          "contribution": 0.09983,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08587,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 1.0,
+          "contribution": 0.08153,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 135.0,
+          "contribution": 0.06147,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "st_depression",
+          "value": 2.2,
+          "contribution": 0.05702,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 62.0,
+          "contribution": 0.04123,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.03152,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 91.5,
+      "created_at": "2026-10-23T06:14:29.902037+00:00"
+    },
+    {
+      "id": "SCR-20261023061430-1468",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 58,
+        "ca": 0,
+        "chol": 224,
+        "cp": 1,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 0.8,
+        "restecg": 0,
+        "sex": 0,
+        "slope": 0,
+        "thal": 1,
+        "thalach": 162,
+        "trestbps": 136
+      },
+      "probability": 0.1138,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1034,
+        "random_forest": 0.1434,
+        "svm": 0.0691,
+        "qsvm": 0.4473,
+        "vqc": 0.6238,
+        "qnn": 0.0778,
+        "classical_mean": 0.1064,
+        "quantum_mean": 0.2303,
+        "hybrid": 0.1138
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10694,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08967,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07433,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05858,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04691,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 58.0,
+          "contribution": 0.03946,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02775,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02546,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 103.4,
+      "created_at": "2026-10-23T06:14:30.039666+00:00"
+    },
+    {
+      "id": "SCR-20261023061527-4622",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "ca": 0,
+        "chol": 240,
+        "cp": 2,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 1.2,
+        "restecg": 0,
+        "sex": 1,
+        "slope": 1,
+        "thal": 2,
+        "thalach": 150,
+        "trestbps": 140
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 106.7,
+      "created_at": "2026-10-23T06:15:27.830582+00:00"
+    },
+    {
+      "id": "SCR-20261023061529-4915",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 62,
+        "chest_pain_type": 3,
+        "cholesterol": 270,
+        "exercise_angina": 1,
+        "fasting_blood_sugar": 0,
+        "major_vessels": 2,
+        "max_heart_rate": 135,
+        "resting_bp": 150,
+        "resting_ecg": 1,
+        "sex": 1,
+        "st_depression": 2.2,
+        "st_slope": 2,
+        "thalassemia": 3
+      },
+      "probability": 0.8083,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Disease present",
+      "model_consensus": {
+        "logistic_regression": 0.9508,
+        "random_forest": 0.6771,
+        "svm": 0.8174,
+        "qsvm": 0.5115,
+        "vqc": 0.4722,
+        "qnn": 0.9239,
+        "classical_mean": 0.8106,
+        "quantum_mean": 0.7722,
+        "hybrid": 0.8083
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.12106,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 2.0,
+          "contribution": 0.09983,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08587,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 1.0,
+          "contribution": 0.08153,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 135.0,
+          "contribution": 0.06147,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "st_depression",
+          "value": 2.2,
+          "contribution": 0.05702,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 62.0,
+          "contribution": 0.04123,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.03152,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 106.0,
+      "created_at": "2026-10-23T06:15:29.534803+00:00"
+    },
+    {
+      "id": "SCR-20261023061529-6890",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 58,
+        "ca": 0,
+        "chol": 224,
+        "cp": 1,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 0.8,
+        "restecg": 0,
+        "sex": 0,
+        "slope": 0,
+        "thal": 1,
+        "thalach": 162,
+        "trestbps": 136
+      },
+      "probability": 0.1138,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1034,
+        "random_forest": 0.1434,
+        "svm": 0.0691,
+        "qsvm": 0.4473,
+        "vqc": 0.6238,
+        "qnn": 0.0778,
+        "classical_mean": 0.1064,
+        "quantum_mean": 0.2303,
+        "hybrid": 0.1138
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10694,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08967,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07433,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05858,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04691,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 58.0,
+          "contribution": 0.03946,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02775,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02546,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 99.0,
+      "created_at": "2026-10-23T06:15:29.660435+00:00"
+    },
+    {
+      "id": "SCR-2026-001-A",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 57,
+        "sex": 0,
+        "cp": 1,
+        "trestbps": 145,
+        "chol": 252,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 148,
+        "exang": 0,
+        "oldpeak": 1.2,
+        "slope": 1,
+        "ca": 1,
+        "thal": 2
+      },
+      "probability": 0.1101,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1031,
+        "random_forest": 0.136,
+        "svm": 0.0669,
+        "qsvm": 0.4459,
+        "vqc": 0.5627,
+        "qnn": 0.0759,
+        "classical_mean": 0.103,
+        "quantum_mean": 0.2216,
+        "hybrid": 0.1101
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10377,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.09054,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07587,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05736,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04748,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 57.0,
+          "contribution": 0.03245,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02841,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02586,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 1005.9,
+      "created_at": "2026-04-10T11:00:00Z"
+    },
+    {
+      "id": "SCR-2026-007",
+      "patient_id": "PAT-DEMO-07",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 64,
+        "sex": 0,
+        "cp": 3,
+        "trestbps": 155,
+        "chol": 310,
+        "fbs": 0,
+        "restecg": 2,
+        "thalach": 130,
+        "exang": 1,
+        "oldpeak": 2.8,
+        "slope": 2,
+        "ca": 2,
+        "thal": 3
+      },
+      "probability": 0.1278,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1048,
+        "random_forest": 0.1654,
+        "svm": 0.0831,
+        "qsvm": 0.4828,
+        "vqc": 0.7458,
+        "qnn": 0.0922,
+        "classical_mean": 0.1192,
+        "quantum_mean": 0.2624,
+        "hybrid": 0.1278
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.11061,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.0817,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.06747,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05863,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.05037,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 64.0,
+          "contribution": 0.04964,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.03012,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02525,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 53.3,
+      "created_at": "2026-10-12T10:00:00Z"
+    },
+    {
+      "id": "SCR-2026-008",
+      "patient_id": "PAT-DEMO-08",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 52,
+        "sex": 1,
+        "cp": 2,
+        "trestbps": 138,
+        "chol": 245,
+        "fbs": 1,
+        "restecg": 1,
+        "thalach": 144,
+        "exang": 0,
+        "oldpeak": 1.4,
+        "slope": 1,
+        "ca": 1,
+        "thal": 2
+      },
+      "probability": 0.1845,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3032,
+        "random_forest": 0.1376,
+        "svm": 0.0978,
+        "qsvm": 0.4244,
+        "vqc": 0.4404,
+        "qnn": 0.2099,
+        "classical_mean": 0.1779,
+        "quantum_mean": 0.2882,
+        "hybrid": 0.1845
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10827,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10479,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07357,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04872,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 52.0,
+          "contribution": -0.03029,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02898,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02841,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02309,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 67.2,
+      "created_at": "2026-10-14T09:20:00Z"
+    },
+    {
+      "id": "SCR-2026-009",
+      "patient_id": "PAT-DEMO-09",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 47,
+        "sex": 1,
+        "cp": 1,
+        "trestbps": 128,
+        "chol": 215,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 166,
+        "exang": 0,
+        "oldpeak": 0.4,
+        "slope": 0,
+        "ca": 0,
+        "thal": 1
+      },
+      "probability": 0.1873,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3005,
+        "random_forest": 0.1527,
+        "svm": 0.0923,
+        "qsvm": 0.4465,
+        "vqc": 0.4792,
+        "qnn": 0.2005,
+        "classical_mean": 0.1806,
+        "quantum_mean": 0.2921,
+        "hybrid": 0.1873
+      },
+      "explanation": [
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10835,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.09736,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07107,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04492,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02976,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02767,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 47.0,
+          "contribution": -0.02556,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.01928,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 63.8,
+      "created_at": "2026-10-13T14:15:00Z"
+    },
+    {
+      "id": "SCR-2026-010",
+      "patient_id": "PAT-DEMO-10",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 59,
+        "sex": 0,
+        "cp": 2,
+        "trestbps": 140,
+        "chol": 268,
+        "fbs": 0,
+        "restecg": 1,
+        "thalach": 142,
+        "exang": 1,
+        "oldpeak": 1.6,
+        "slope": 1,
+        "ca": 1,
+        "thal": 2
+      },
+      "probability": 0.1176,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1036,
+        "random_forest": 0.1512,
+        "svm": 0.0713,
+        "qsvm": 0.4503,
+        "vqc": 0.6681,
+        "qnn": 0.0798,
+        "classical_mean": 0.11,
+        "quantum_mean": 0.2375,
+        "hybrid": 0.1176
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10782,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08962,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07349,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05861,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 59.0,
+          "contribution": 0.04864,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04858,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02895,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02551,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 55.2,
+      "created_at": "2026-10-15T11:30:00Z"
+    },
+    {
+      "id": "SCR-2026-011",
+      "patient_id": "PAT-DEMO-11",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 68,
+        "sex": 1,
+        "cp": 3,
+        "trestbps": 160,
+        "chol": 275,
+        "fbs": 1,
+        "restecg": 2,
+        "thalach": 122,
+        "exang": 1,
+        "oldpeak": 3.0,
+        "slope": 2,
+        "ca": 3,
+        "thal": 3
+      },
+      "probability": 0.2419,
+      "risk_tier": "Low",
+      "conformal_status": "abstained",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3118,
+        "random_forest": 0.259,
+        "svm": 0.1368,
+        "qsvm": 0.4577,
+        "vqc": 0.4203,
+        "qnn": 0.2653,
+        "classical_mean": 0.2363,
+        "quantum_mean": 0.3295,
+        "hybrid": 0.2419
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10648,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08386,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07349,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 68.0,
+          "contribution": 0.04621,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04566,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.0351,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.03108,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02623,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 47.9,
+      "created_at": "2026-10-16T16:00:00Z"
+    },
+    {
+      "id": "SCR-2026-012",
+      "patient_id": "PAT-DEMO-12",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 42,
+        "sex": 0,
+        "cp": 0,
+        "trestbps": 120,
+        "chol": 185,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 172,
+        "exang": 0,
+        "oldpeak": 0.0,
+        "slope": 0,
+        "ca": 0,
+        "thal": 1
+      },
+      "probability": 0.0788,
+      "risk_tier": "Very low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.0997,
+        "random_forest": 0.0625,
+        "svm": 0.0521,
+        "qsvm": 0.4588,
+        "vqc": 0.4451,
+        "qnn": 0.0596,
+        "classical_mean": 0.0711,
+        "quantum_mean": 0.2003,
+        "hybrid": 0.0788
+      },
+      "explanation": [
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10239,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.09778,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.06499,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05112,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04701,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 42.0,
+          "contribution": -0.03951,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02844,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.0188,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 45.5,
+      "created_at": "2026-10-17T09:00:00Z"
+    },
+    {
+      "id": "SCR-2026-013",
+      "patient_id": "PAT-DEMO-13",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "sex": 1,
+        "cp": 2,
+        "trestbps": 132,
+        "chol": 230,
+        "fbs": 0,
+        "restecg": 1,
+        "thalach": 152,
+        "exang": 0,
+        "oldpeak": 0.8,
+        "slope": 1,
+        "ca": 0,
+        "thal": 2
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 55.2,
+      "created_at": "2026-10-18T11:45:00Z"
+    },
+    {
+      "id": "SCR-2026-014",
+      "patient_id": "PAT-DEMO-14",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 60,
+        "sex": 0,
+        "cp": 1,
+        "trestbps": 130,
+        "chol": 210,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 150,
+        "exang": 0,
+        "oldpeak": 0.6,
+        "slope": 0,
+        "ca": 0,
+        "thal": 1
+      },
+      "probability": 0.1214,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1038,
+        "random_forest": 0.1593,
+        "svm": 0.0736,
+        "qsvm": 0.4546,
+        "vqc": 0.6971,
+        "qnn": 0.082,
+        "classical_mean": 0.1136,
+        "quantum_mean": 0.2434,
+        "hybrid": 0.1214
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.11239,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08796,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07171,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 60.0,
+          "contribution": 0.05885,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05632,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04853,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.03051,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02431,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 45.3,
+      "created_at": "2026-10-19T13:30:00Z"
+    },
+    {
+      "id": "SCR-2026-015",
+      "patient_id": "PAT-DEMO-15",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 71,
+        "sex": 1,
+        "cp": 3,
+        "trestbps": 158,
+        "chol": 260,
+        "fbs": 1,
+        "restecg": 2,
+        "thalach": 115,
+        "exang": 1,
+        "oldpeak": 2.6,
+        "slope": 2,
+        "ca": 3,
+        "thal": 3
+      },
+      "probability": 0.2447,
+      "risk_tier": "Low",
+      "conformal_status": "abstained",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3135,
+        "random_forest": 0.2565,
+        "svm": 0.144,
+        "qsvm": 0.4668,
+        "vqc": 0.4508,
+        "qnn": 0.2816,
+        "classical_mean": 0.2383,
+        "quantum_mean": 0.3457,
+        "hybrid": 0.2447
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10643,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08437,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07271,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04602,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 71.0,
+          "contribution": 0.04379,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.03509,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.03036,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02622,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 39.4,
+      "created_at": "2026-10-20T10:15:00Z"
+    },
+    {
+      "id": "SCR-2026-016",
+      "patient_id": "PAT-DEMO-16",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 36,
+        "sex": 0,
+        "cp": 0,
+        "trestbps": 114,
+        "chol": 178,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 178,
+        "exang": 0,
+        "oldpeak": 0.0,
+        "slope": 0,
+        "ca": 0,
+        "thal": 1
+      },
+      "probability": 0.0831,
+      "risk_tier": "Very low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.0983,
+        "random_forest": 0.0689,
+        "svm": 0.0582,
+        "qsvm": 0.4253,
+        "vqc": 0.6257,
+        "qnn": 0.057,
+        "classical_mean": 0.0749,
+        "quantum_mean": 0.2119,
+        "hybrid": 0.0831
+      },
+      "explanation": [
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10173,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.09867,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.06375,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05137,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04727,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 36.0,
+          "contribution": -0.03428,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02828,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.01886,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 49.3,
+      "created_at": "2026-10-21T09:10:00Z"
+    },
+    {
+      "id": "SCR-2026-017",
+      "patient_id": "PAT-DEMO-17",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 49,
+        "sex": 1,
+        "cp": 2,
+        "trestbps": 142,
+        "chol": 270,
+        "fbs": 0,
+        "restecg": 1,
+        "thalach": 146,
+        "exang": 1,
+        "oldpeak": 1.8,
+        "slope": 1,
+        "ca": 1,
+        "thal": 2
+      },
+      "probability": 0.1841,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3016,
+        "random_forest": 0.1418,
+        "svm": 0.0938,
+        "qsvm": 0.4291,
+        "vqc": 0.4461,
+        "qnn": 0.204,
+        "classical_mean": 0.1776,
+        "quantum_mean": 0.2862,
+        "hybrid": 0.1841
+      },
+      "explanation": [
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10837,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.09956,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07263,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04551,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 49.0,
+          "contribution": -0.0309,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02943,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02782,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.01956,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 50.8,
+      "created_at": "2026-10-22T14:40:00Z"
+    },
+    {
+      "id": "SCR-2026-018",
+      "patient_id": "PAT-DEMO-18",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 53,
+        "sex": 0,
+        "cp": 1,
+        "trestbps": 126,
+        "chol": 218,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 160,
+        "exang": 0,
+        "oldpeak": 0.6,
+        "slope": 0,
+        "ca": 0,
+        "thal": 1
+      },
+      "probability": 0.0831,
+      "risk_tier": "Very low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1022,
+        "random_forest": 0.0666,
+        "svm": 0.0618,
+        "qsvm": 0.4498,
+        "vqc": 0.2859,
+        "qnn": 0.0695,
+        "classical_mean": 0.0765,
+        "quantum_mean": 0.1858,
+        "hybrid": 0.0831
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10683,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.09889,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.06984,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05108,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.05044,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 53.0,
+          "contribution": -0.02499,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02098,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 48.7,
+      "created_at": "2026-10-22T16:15:00Z"
+    },
+    {
+      "id": "SCR-2026-004-A",
+      "patient_id": "PAT-DEMO-04",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 165,
+        "bloodpressure": 86,
+        "skinthickness": 32,
+        "insulin": 180,
+        "bmi": 35.2,
+        "diabetespedigreefunction": 0.76,
+        "age": 50
+      },
+      "probability": 0.8494,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.8078,
+        "random_forest": 0.8575,
+        "svm": 0.8843,
+        "qsvm": 0.4158,
+        "vqc": 0.3395,
+        "qnn": 0.9085,
+        "classical_mean": 0.8494,
+        "quantum_mean": 0.7321,
+        "hybrid": 0.8494
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 165.0,
+          "contribution": 0.18839,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 50.0,
+          "contribution": 0.07181,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "bmi",
+          "value": 35.2,
+          "contribution": 0.05532,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "insulin",
+          "value": 180.0,
+          "contribution": 0.0364,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 0.0,
+          "contribution": -0.01001,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.00953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": 0.00826,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00147,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 48.8,
+      "created_at": "2026-03-14T09:30:00Z"
+    },
+    {
+      "id": "SCR-2026-019",
+      "patient_id": "PAT-DEMO-19",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 2,
+        "glucose": 172,
+        "bloodpressure": 84,
+        "skinthickness": 32,
+        "insulin": 195,
+        "bmi": 34.2,
+        "diabetespedigreefunction": 0.72,
+        "age": 56
+      },
+      "probability": 0.8235,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.8737,
+        "random_forest": 0.8441,
+        "svm": 0.7523,
+        "qsvm": 0.5199,
+        "vqc": 0.6149,
+        "qnn": 0.9098,
+        "classical_mean": 0.8235,
+        "quantum_mean": 0.7869,
+        "hybrid": 0.8235
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 172.0,
+          "contribution": 0.22994,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "bmi",
+          "value": 34.2,
+          "contribution": 0.05024,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 56.0,
+          "contribution": 0.04919,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "insulin",
+          "value": 195.0,
+          "contribution": 0.03381,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 2.0,
+          "contribution": -0.02345,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": 0.00539,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00374,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.00344,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 51.8,
+      "created_at": "2026-10-13T11:15:00Z"
+    },
+    {
+      "id": "SCR-2026-020",
+      "patient_id": "PAT-DEMO-20",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 134,
+        "bloodpressure": 78,
+        "skinthickness": 24,
+        "insulin": 110,
+        "bmi": 29.8,
+        "diabetespedigreefunction": 0.48,
+        "age": 38
+      },
+      "probability": 0.5289,
+      "risk_tier": "Moderate",
+      "conformal_status": "abstained",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.3594,
+        "random_forest": 0.5387,
+        "svm": 0.6933,
+        "qsvm": 0.314,
+        "vqc": 0.2354,
+        "qnn": 0.4387,
+        "classical_mean": 0.5289,
+        "quantum_mean": 0.3877,
+        "hybrid": 0.5289
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 134.0,
+          "contribution": 0.08188,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "insulin",
+          "value": 110.0,
+          "contribution": -0.05653,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "bmi",
+          "value": 29.8,
+          "contribution": -0.0512,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 38.0,
+          "contribution": 0.03387,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.03325,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": 0.00363,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00357,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 0.0,
+          "contribution": -0.00198,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 44.2,
+      "created_at": "2026-10-14T15:20:00Z"
+    },
+    {
+      "id": "SCR-2026-021",
+      "patient_id": "PAT-DEMO-21",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 1,
+        "glucose": 156,
+        "bloodpressure": 80,
+        "skinthickness": 30,
+        "insulin": 160,
+        "bmi": 32.6,
+        "diabetespedigreefunction": 0.65,
+        "age": 46
+      },
+      "probability": 0.7978,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.7005,
+        "random_forest": 0.828,
+        "svm": 0.8687,
+        "qsvm": 0.3809,
+        "vqc": 0.2999,
+        "qnn": 0.8302,
+        "classical_mean": 0.7978,
+        "quantum_mean": 0.6682,
+        "hybrid": 0.7978
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 156.0,
+          "contribution": 0.17253,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 46.0,
+          "contribution": 0.09416,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "insulin",
+          "value": 160.0,
+          "contribution": 0.03892,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "bmi",
+          "value": 32.6,
+          "contribution": 0.03888,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 1.0,
+          "contribution": -0.03132,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": 0.00851,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.0073,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00027,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 60.8,
+      "created_at": "2026-10-15T10:10:00Z"
+    },
+    {
+      "id": "SCR-2026-022",
+      "patient_id": "PAT-DEMO-22",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 94,
+        "bloodpressure": 72,
+        "skinthickness": 20,
+        "insulin": 75,
+        "bmi": 24.5,
+        "diabetespedigreefunction": 0.3,
+        "age": 33
+      },
+      "probability": 0.0898,
+      "risk_tier": "Very low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.0594,
+        "random_forest": 0.0926,
+        "svm": 0.1183,
+        "qsvm": 0.343,
+        "vqc": 0.1701,
+        "qnn": 0.0779,
+        "classical_mean": 0.0898,
+        "quantum_mean": 0.1498,
+        "hybrid": 0.0898
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 94.0,
+          "contribution": -0.16765,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "bmi",
+          "value": 24.5,
+          "contribution": -0.1335,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "insulin",
+          "value": 75.0,
+          "contribution": -0.11936,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 33.0,
+          "contribution": 0.02339,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": -0.0121,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.00745,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 0.0,
+          "contribution": -0.00498,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": 6e-05,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 62.2,
+      "created_at": "2026-10-16T11:00:00Z"
+    },
+    {
+      "id": "SCR-2026-023",
+      "patient_id": "PAT-DEMO-23",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 4,
+        "glucose": 196,
+        "bloodpressure": 88,
+        "skinthickness": 38,
+        "insulin": 240,
+        "bmi": 38.4,
+        "diabetespedigreefunction": 0.94,
+        "age": 61
+      },
+      "probability": 0.8054,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.9741,
+        "random_forest": 0.7899,
+        "svm": 0.6473,
+        "qsvm": 0.3454,
+        "vqc": 0.299,
+        "qnn": 0.9194,
+        "classical_mean": 0.8054,
+        "quantum_mean": 0.7185,
+        "hybrid": 0.8054
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 195.0,
+          "contribution": 0.22913,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "bmi",
+          "value": 38.4,
+          "contribution": 0.04756,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "insulin",
+          "value": 240.0,
+          "contribution": 0.03192,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 4.0,
+          "contribution": -0.01527,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": 0.00504,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 61.0,
+          "contribution": -0.00496,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00261,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": -0.00024,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 40.1,
+      "created_at": "2026-10-17T14:30:00Z"
+    },
+    {
+      "id": "SCR-2026-024",
+      "patient_id": "PAT-DEMO-24",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 148,
+        "bloodpressure": 84,
+        "skinthickness": 26,
+        "insulin": 135,
+        "bmi": 30.5,
+        "diabetespedigreefunction": 0.54,
+        "age": 48
+      },
+      "probability": 0.7121,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.5491,
+        "random_forest": 0.7518,
+        "svm": 0.8414,
+        "qsvm": 0.4408,
+        "vqc": 0.3748,
+        "qnn": 0.7351,
+        "classical_mean": 0.7121,
+        "quantum_mean": 0.6276,
+        "hybrid": 0.7121
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 148.0,
+          "contribution": 0.12139,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 48.0,
+          "contribution": 0.08661,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "insulin",
+          "value": 135.0,
+          "contribution": 0.04009,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 0.0,
+          "contribution": -0.02542,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.01886,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": 0.00868,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "bmi",
+          "value": 30.5,
+          "contribution": 0.00648,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00423,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 61.0,
+      "created_at": "2026-10-18T09:50:00Z"
+    },
+    {
+      "id": "SCR-2026-025",
+      "patient_id": "PAT-DEMO-25",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 84,
+        "bloodpressure": 66,
+        "skinthickness": 16,
+        "insulin": 58,
+        "bmi": 21.4,
+        "diabetespedigreefunction": 0.22,
+        "age": 27
+      },
+      "probability": 0.0461,
+      "risk_tier": "Very low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.0268,
+        "random_forest": 0.053,
+        "svm": 0.0594,
+        "qsvm": 0.2509,
+        "vqc": 0.1615,
+        "qnn": 0.0436,
+        "classical_mean": 0.0461,
+        "quantum_mean": 0.1047,
+        "hybrid": 0.0461
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 84.0,
+          "contribution": -0.18496,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "bmi",
+          "value": 21.4,
+          "contribution": -0.12045,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "insulin",
+          "value": 58.0,
+          "contribution": -0.08774,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 27.0,
+          "contribution": -0.02915,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": -0.01942,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.0052,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00505,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 0.0,
+          "contribution": -0.00479,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 44.2,
+      "created_at": "2026-10-19T10:40:00Z"
+    },
+    {
+      "id": "SCR-2026-026",
+      "patient_id": "PAT-DEMO-26",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 162,
+        "bloodpressure": 88,
+        "skinthickness": 30,
+        "insulin": 175,
+        "bmi": 33.1,
+        "diabetespedigreefunction": 0.68,
+        "age": 54
+      },
+      "probability": 0.8051,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.7583,
+        "random_forest": 0.8264,
+        "svm": 0.8328,
+        "qsvm": 0.4043,
+        "vqc": 0.4035,
+        "qnn": 0.888,
+        "classical_mean": 0.8051,
+        "quantum_mean": 0.7228,
+        "hybrid": 0.8051
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 162.0,
+          "contribution": 0.19342,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 54.0,
+          "contribution": 0.05755,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "insulin",
+          "value": 175.0,
+          "contribution": 0.03755,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "bmi",
+          "value": 33.1,
+          "contribution": 0.03754,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 0.0,
+          "contribution": -0.01211,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.00964,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": 0.00553,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00206,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 46.0,
+      "created_at": "2026-10-20T11:25:00Z"
+    },
+    {
+      "id": "SCR-2026-027",
+      "patient_id": "PAT-DEMO-27",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 1,
+        "glucose": 128,
+        "bloodpressure": 76,
+        "skinthickness": 22,
+        "insulin": 98,
+        "bmi": 27.4,
+        "diabetespedigreefunction": 0.42,
+        "age": 41
+      },
+      "probability": 0.4055,
+      "risk_tier": "Moderate",
+      "conformal_status": "abstained",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.2861,
+        "random_forest": 0.4023,
+        "svm": 0.5311,
+        "qsvm": 0.3113,
+        "vqc": 0.31,
+        "qnn": 0.3609,
+        "classical_mean": 0.4055,
+        "quantum_mean": 0.3438,
+        "hybrid": 0.4055
+      },
+      "explanation": [
+        {
+          "feature": "age",
+          "value": 41.0,
+          "contribution": 0.1063,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "bmi",
+          "value": 27.4,
+          "contribution": -0.09085,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "insulin",
+          "value": 98.0,
+          "contribution": -0.08342,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "glucose",
+          "value": 128.0,
+          "contribution": -0.03297,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.02958,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 1.0,
+          "contribution": -0.0218,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00349,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": -0.0004,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 47.0,
+      "created_at": "2026-10-21T15:00:00Z"
+    },
+    {
+      "id": "SCR-2026-028",
+      "patient_id": "PAT-DEMO-28",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 205,
+        "bloodpressure": 92,
+        "skinthickness": 36,
+        "insulin": 260,
+        "bmi": 37.9,
+        "diabetespedigreefunction": 0.98,
+        "age": 67
+      },
+      "probability": 0.7484,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.96,
+        "random_forest": 0.7815,
+        "svm": 0.5,
+        "qsvm": 0.3916,
+        "vqc": 0.5569,
+        "qnn": 0.9418,
+        "classical_mean": 0.7484,
+        "quantum_mean": 0.7717,
+        "hybrid": 0.7484
+      },
+      "explanation": [
+        {
+          "feature": "glucose",
+          "value": 195.0,
+          "contribution": 0.21559,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "bmi",
+          "value": 37.9,
+          "contribution": 0.05864,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "insulin",
+          "value": 260.0,
+          "contribution": 0.03908,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 66.0,
+          "contribution": -0.03545,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": 0.00689,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": -0.00371,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.0017,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 0.0,
+          "contribution": -0.00059,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 40.0,
+      "created_at": "2026-10-22T09:30:00Z"
+    },
+    {
+      "id": "SCR-2026-029",
+      "patient_id": "PAT-DEMO-29",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 1,
+        "glucose": 118,
+        "bloodpressure": 74,
+        "skinthickness": 26,
+        "insulin": 88,
+        "bmi": 28.2,
+        "diabetespedigreefunction": 0.38,
+        "age": 35
+      },
+      "probability": 0.2812,
+      "risk_tier": "Low",
+      "conformal_status": "abstained",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.2152,
+        "random_forest": 0.2666,
+        "svm": 0.3627,
+        "qsvm": 0.3647,
+        "vqc": 0.2117,
+        "qnn": 0.2166,
+        "classical_mean": 0.2812,
+        "quantum_mean": 0.2507,
+        "hybrid": 0.2812
+      },
+      "explanation": [
+        {
+          "feature": "insulin",
+          "value": 88.0,
+          "contribution": -0.17871,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 35.0,
+          "contribution": 0.06812,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "glucose",
+          "value": 118.0,
+          "contribution": -0.06323,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "bmi",
+          "value": 28.2,
+          "contribution": -0.03905,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 1.0,
+          "contribution": -0.0381,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.0225,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": -0.01024,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": 0.00598,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 40.0,
+      "created_at": "2026-10-22T14:10:00Z"
+    },
+    {
+      "id": "SCR-2026-030",
+      "patient_id": "PAT-DEMO-30",
+      "condition": "Diabetes",
+      "dataset_id": "diabetes_pima",
+      "input_parameters": {
+        "pregnancies": 0,
+        "glucose": 104,
+        "bloodpressure": 76,
+        "skinthickness": 22,
+        "insulin": 82,
+        "bmi": 25.8,
+        "diabetespedigreefunction": 0.35,
+        "age": 45
+      },
+      "probability": 0.233,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No diabetes",
+      "model_consensus": {
+        "logistic_regression": 0.1135,
+        "random_forest": 0.2087,
+        "svm": 0.3787,
+        "qsvm": 0.3751,
+        "vqc": 0.2367,
+        "qnn": 0.1785,
+        "classical_mean": 0.233,
+        "quantum_mean": 0.2308,
+        "hybrid": 0.233
+      },
+      "explanation": [
+        {
+          "feature": "bmi",
+          "value": 25.8,
+          "contribution": -0.16135,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "insulin",
+          "value": 82.0,
+          "contribution": -0.14098,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 45.0,
+          "contribution": 0.10958,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "glucose",
+          "value": 104.0,
+          "contribution": -0.10644,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "blood_pressure",
+          "value": 72.0,
+          "contribution": 0.01318,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "diabetes_pedigree",
+          "value": 0.3725,
+          "contribution": -0.00874,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "pregnancies",
+          "value": 0.0,
+          "contribution": 0.00386,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "skin_thickness",
+          "value": 29.0,
+          "contribution": 0.00029,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 52.9,
+      "created_at": "2026-10-22T16:45:00Z"
+    },
+    {
+      "id": "SCR-20261023063705-0825",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "ca": 0,
+        "chol": 240,
+        "cp": 2,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 1.2,
+        "restecg": 0,
+        "sex": 1,
+        "slope": 1,
+        "thal": 2,
+        "thalach": 150,
+        "trestbps": 140
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 67.0,
+      "created_at": "2026-10-23T06:37:05.769730+00:00"
+    },
+    {
+      "id": "SCR-20261023063706-4430",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 62,
+        "chest_pain_type": 3,
+        "cholesterol": 270,
+        "exercise_angina": 1,
+        "fasting_blood_sugar": 0,
+        "major_vessels": 2,
+        "max_heart_rate": 135,
+        "resting_bp": 150,
+        "resting_ecg": 1,
+        "sex": 1,
+        "st_depression": 2.2,
+        "st_slope": 2,
+        "thalassemia": 3
+      },
+      "probability": 0.8083,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Disease present",
+      "model_consensus": {
+        "logistic_regression": 0.9508,
+        "random_forest": 0.6771,
+        "svm": 0.8174,
+        "qsvm": 0.5115,
+        "vqc": 0.4722,
+        "qnn": 0.9239,
+        "classical_mean": 0.8106,
+        "quantum_mean": 0.7722,
+        "hybrid": 0.8083
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.12106,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 2.0,
+          "contribution": 0.09983,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08587,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 1.0,
+          "contribution": 0.08153,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 135.0,
+          "contribution": 0.06147,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "st_depression",
+          "value": 2.2,
+          "contribution": 0.05702,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 62.0,
+          "contribution": 0.04123,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.03152,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 56.6,
+      "created_at": "2026-10-23T06:37:06.840244+00:00"
+    },
+    {
+      "id": "SCR-20261023063706-3926",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 58,
+        "ca": 0,
+        "chol": 224,
+        "cp": 1,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 0.8,
+        "restecg": 0,
+        "sex": 0,
+        "slope": 0,
+        "thal": 1,
+        "thalach": 162,
+        "trestbps": 136
+      },
+      "probability": 0.1138,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1034,
+        "random_forest": 0.1434,
+        "svm": 0.0691,
+        "qsvm": 0.4473,
+        "vqc": 0.6238,
+        "qnn": 0.0778,
+        "classical_mean": 0.1064,
+        "quantum_mean": 0.2303,
+        "hybrid": 0.1138
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10694,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08967,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07433,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05858,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04691,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 58.0,
+          "contribution": 0.03946,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02775,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02546,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 47.4,
+      "created_at": "2026-10-23T06:37:06.913052+00:00"
+    },
+    {
+      "id": "SCR-20261023065612-3986",
+      "patient_id": "PAT-DEMO-02",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 55,
+        "ca": 0,
+        "chol": 240,
+        "cp": 2,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 1.2,
+        "restecg": 0,
+        "sex": 1,
+        "slope": 1,
+        "thal": 2,
+        "thalach": 150,
+        "trestbps": 140
+      },
+      "probability": 0.1914,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.3048,
+        "random_forest": 0.1479,
+        "svm": 0.1036,
+        "qsvm": 0.437,
+        "vqc": 0.5509,
+        "qnn": 0.2169,
+        "classical_mean": 0.1839,
+        "quantum_mean": 0.3088,
+        "hybrid": 0.1914
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.1065,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.10096,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07839,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04885,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.02953,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02933,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02332,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 55.0,
+          "contribution": -0.02135,
+          "direction": "towards healthy"
+        }
+      ],
+      "latency_ms": 51.6,
+      "created_at": "2026-10-23T06:56:12.909823+00:00"
+    },
+    {
+      "id": "SCR-20261023065613-2073",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 62,
+        "chest_pain_type": 3,
+        "cholesterol": 270,
+        "exercise_angina": 1,
+        "fasting_blood_sugar": 0,
+        "major_vessels": 2,
+        "max_heart_rate": 135,
+        "resting_bp": 150,
+        "resting_ecg": 1,
+        "sex": 1,
+        "st_depression": 2.2,
+        "st_slope": 2,
+        "thalassemia": 3
+      },
+      "probability": 0.8083,
+      "risk_tier": "High",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "Disease present",
+      "model_consensus": {
+        "logistic_regression": 0.9508,
+        "random_forest": 0.6771,
+        "svm": 0.8174,
+        "qsvm": 0.5115,
+        "vqc": 0.4722,
+        "qnn": 0.9239,
+        "classical_mean": 0.8106,
+        "quantum_mean": 0.7722,
+        "hybrid": 0.8083
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.12106,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 2.0,
+          "contribution": 0.09983,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08587,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 1.0,
+          "contribution": 0.08153,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 135.0,
+          "contribution": 0.06147,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "st_depression",
+          "value": 2.2,
+          "contribution": 0.05702,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "age",
+          "value": 62.0,
+          "contribution": 0.04123,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "sex",
+          "value": 1.0,
+          "contribution": 0.03152,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 64.4,
+      "created_at": "2026-10-23T06:56:13.986390+00:00"
+    },
+    {
+      "id": "SCR-20261023065614-6658",
+      "patient_id": "PAT-DEMO-01",
+      "condition": "Heart Disease",
+      "dataset_id": "heart_cleveland",
+      "input_parameters": {
+        "age": 58,
+        "ca": 0,
+        "chol": 224,
+        "cp": 1,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 0.8,
+        "restecg": 0,
+        "sex": 0,
+        "slope": 0,
+        "thal": 1,
+        "thalach": 162,
+        "trestbps": 136
+      },
+      "probability": 0.1138,
+      "risk_tier": "Low",
+      "conformal_status": "committed",
+      "conformal_confidence": 90.0,
+      "prediction_label": "No disease",
+      "model_consensus": {
+        "logistic_regression": 0.1034,
+        "random_forest": 0.1434,
+        "svm": 0.0691,
+        "qsvm": 0.4473,
+        "vqc": 0.6238,
+        "qnn": 0.0778,
+        "classical_mean": 0.1064,
+        "quantum_mean": 0.2303,
+        "hybrid": 0.1138
+      },
+      "explanation": [
+        {
+          "feature": "chest_pain_type",
+          "value": 3.0,
+          "contribution": -0.10694,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "thalassemia",
+          "value": 3.0,
+          "contribution": -0.08967,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "major_vessels",
+          "value": 0.0,
+          "contribution": -0.07433,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "sex",
+          "value": 0.0,
+          "contribution": -0.05858,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "exercise_angina",
+          "value": 0.0,
+          "contribution": -0.04691,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "age",
+          "value": 58.0,
+          "contribution": 0.03946,
+          "direction": "towards disease"
+        },
+        {
+          "feature": "max_heart_rate",
+          "value": 153.0,
+          "contribution": -0.02775,
+          "direction": "towards healthy"
+        },
+        {
+          "feature": "st_slope",
+          "value": 2.0,
+          "contribution": 0.02546,
+          "direction": "towards disease"
+        }
+      ],
+      "latency_ms": 54.8,
+      "created_at": "2026-10-23T06:56:14.058193+00:00"
+    }
+  ]
+}

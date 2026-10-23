@@ -1,57 +1,30 @@
 # Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-.eggs/
-build/
-dist/
-
-# Virtual environments
 .venv/
-venv/
-env/
-ENV/
+__pycache__/
+*.pyc
+*.db
+*.db-wal
+*.db-shm
 
-# Jupyter
-.ipynb_checkpoints/
-*.nbconvert.ipynb
-profile_default/
-ipython_config.py
+# Node
+node_modules/
+web/dist/
 
-# Testing / linting caches
-.pytest_cache/
-.coverage
-htmlcov/
-.mypy_cache/
-.ruff_cache/
-.dmypy.json
+# Raw ClinVar download — 420 MB archive plus the filtered extract.
+# Regenerate with `./scripts/fetch_clinvar.sh` or `make data`.
+data/raw/*.gz
+data/raw/*.tsv
+data/raw/*.err
+data/raw/parts/
 
-# Secrets and environment -- NEVER commit these
-.env
-.env.*
-*.pem
-*.key
-secrets.yaml
-credentials.json
+# Derived arrays — regenerate with `make data`
+data/processed/
 
-# Generated data and large artifacts
-*.h5
-*.hdf5
-*.npy
-*.npz
-*.qasm.out
-data/*.csv
-data/*.pkl
-!data/sample.csv
+# Bundled dataset archives — the four extracted files the loaders read are
+# committed; re-download with ./scripts/fetch_bundled.sh
+data/bundled/*.zip
+data/bundled/heart/costs/
+data/bundled/parkinsons/telemonitoring/
 
-# Quantum backend output
-backend_provider_*.json
-
-# OS / editors
+# OS
 .DS_Store
-Thumbs.db
-.idea/
-.vscode/
-*.swp
