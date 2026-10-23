@@ -28,6 +28,25 @@
 
 ---
 
+## 📌 Table of Contents
+
+- [🚀 What Makes AAROGYAM Different?](#-what-makes-aarogyam-different)
+  - [⚖️ Conventional Healthcare AI vs. AAROGYAM](#️-conventional-healthcare-ai-vs-aarogyam)
+  - [💡 Our Innovation](#-our-innovation)
+- [👥 Team Members](#-team-members-github-ids)
+- [❓ Problem Statement](#-problem-statement)
+- [💡 Proposed Solution](#-proposed-solution)
+- [🧩 Approach & Architecture](#-approach--architecture)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🚀 How to Run](#-how-to-run)
+- [🔁 How to Push Code](#-how-to-push-code)
+- [✅ Submission Checklist](#-submission-checklist)
+- [📚 Resources & Citations](#-resources--citations)
+- [📄 License](#-license)
+
+---
+
 ## 🚀 What Makes AAROGYAM Different?
 
 > **"We don't just predict health risks. We explore how quantum intelligence can make risk assessment more transparent, comparative, and actionable."**
@@ -63,23 +82,6 @@ Most conventional healthcare AI tools function as closed black boxes—running a
 
 3. **🎯 Actionable Risk Insights:**  
    Risk scores are mapped into clinical action tiers with split conformal prediction intervals ($1 - \alpha = 90\%$ coverage guarantee). When data points fall near the decision boundary, the system explicitly flags predictive uncertainty and prompts clinician verification rather than making a dangerous guess.
-
----
-
-## 📌 Table of Contents
-
-- [🚀 What Makes AAROGYAM Different?](#-what-makes-aarogyam-different)
-- [👥 Team Members](#-team-members-github-ids)
-- [❓ Problem Statement](#-problem-statement)
-- [💡 Proposed Solution](#-proposed-solution)
-- [🧩 Approach & Architecture](#-approach--architecture)
-- [🛠️ Tech Stack](#-tech-stack)
-- [📁 Project Structure](#-project-structure)
-- [🚀 How to Run](#-how-to-run)
-- [🔁 How to Push Code](#-how-to-push-code)
-- [✅ Submission Checklist](#-submission-checklist)
-- [📚 Resources & Citations](#-resources--citations)
-- [📄 License](#-license)
 
 ---
 
