@@ -19,7 +19,7 @@
 | **Tier** | Both (Online & Offline) |
 | **Live Web App** | **[https://aarogyamhl.vercel.app/](https://aarogyamhl.vercel.app/)** |
 | **Video Demonstration** | **[Watch on YouTube (Demo Walkthrough)](https://youtu.be/F4ThW7V9Y0U)** |
-| **Presentation Deck** | **[AAROGYAM_QiskitFallFest_Deck.pptx](docs/AAROGYAM_QiskitFallFest_Deck.pptx)** |
+| **Presentation Deck** | **[PDF (Direct View)](docs/AAROGYAM_QiskitFallFest_Deck.pdf)** &nbsp;\|&nbsp; **[PPTX (PowerPoint)](docs/AAROGYAM_QiskitFallFest_Deck.pptx)** |
 | **Repository** | [vtu-hc-hacklords](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords.git) |
 | **Organisation** | [vtu-qiskit-fall-fest-2026](https://github.com/vtu-qiskit-fall-fest-2026) |
 | **Event** | VTU-QFF Hackathon — VTU-Qiskit Fall Fest 2026 |
@@ -294,7 +294,7 @@ git push -u target feature/quantum-enhancement
 - [x] Zero-dependency Offline Demo Mode for hackathon jury evaluation
 - [x] Production Docker container & 1-click cloud deployment config verified
 - [x] Video walkthrough submitted: **[https://youtu.be/F4ThW7V9Y0U](https://youtu.be/F4ThW7V9Y0U)**
-- [x] Presentation deck submitted: **[docs/AAROGYAM_QiskitFallFest_Deck.pptx](docs/AAROGYAM_QiskitFallFest_Deck.pptx)**
+- [x] Presentation deck submitted: **[docs/AAROGYAM_QiskitFallFest_Deck.pdf](docs/AAROGYAM_QiskitFallFest_Deck.pdf)** ([PPTX](docs/AAROGYAM_QiskitFallFest_Deck.pptx))
 - [x] Code pushed to `main` and verified with automated test suites
 
 ---
