@@ -17,7 +17,7 @@
 | **Team** | HackLords |
 | **Team ID** | VTU-QFF-HC-0010 |
 | **Tier** | Both (Online & Offline) |
-| **Live Web App** | **[https://aarogyamhacklords.vercel.app/](https://aarogyamhacklords.vercel.app/)** |
+| **Live Web App** | **[https://aarogyamhl.vercel.app/](https://aarogyamhl.vercel.app/)** |
 | **Video Demonstration** | **[Watch on YouTube (Demo Walkthrough)](https://youtu.be/HBQTm-y_lWI)** |
 | **Presentation Deck** | **[AAROGYAM_QiskitFallFest_Deck.pptx](docs/AAROGYAM_QiskitFallFest_Deck.pptx)** |
 | **Repository** | [vtu-hc-hacklords](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords.git) |
