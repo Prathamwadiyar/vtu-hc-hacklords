@@ -28,8 +28,47 @@
 
 ---
 
+## 🚀 What Makes AAROGYAM Different?
+
+> **"We don't just predict health risks. We explore how quantum intelligence can make risk assessment more transparent, comparative, and actionable."**
+
+Most conventional healthcare AI tools function as closed black boxes—running a single classical classifier, producing uncalibrated probability scores, and failing to provide comparative transparency or dual-portal workflows. 
+
+**AAROGYAM** bridges parameterised quantum statevector simulation via **IBM Qiskit** with validated clinical workflows, rigorous head-to-head benchmarking against classical algorithms, explainable feature attribution, and dual dedicated interfaces for patients and healthcare providers.
+
+### ⚖️ Conventional Healthcare AI vs. AAROGYAM
+
+| Dimension / Capability | Conventional Healthcare AI | AAROGYAM Platform | Codebase & Implementation Status |
+| :--- | :--- | :--- | :--- |
+| **1. Hybrid Quantum-Classical AI** | Strictly classical neural nets, tree models, or standard logistic regression. | Hybrid pipeline pairing classical baselines with **IBM Qiskit** circuits ($ZZFeatureMap$, VQC, Data Re-uploading QNN). | **Live** (`ml/quantum.py`, Qiskit statevector simulation) |
+| **2. Quantum vs Classical Benchmarking** | Single-model deployment with no comparative architectural context. | Systematic 6-model benchmark suite (3 classical vs 3 quantum) comparing accuracy, balanced accuracy, F1, sensitivity, and runtime. | **Live** (`ml/pipeline.py`, `/platform` & `/studio` views) |
+| **3. Explainable AI Risk Predictions** | Opaque black-box risk numbers with little or no feature-level attribution. | **SHAP feature attribution** waterfall charts, top contributing clinical factors, and patient-friendly natural language rationales. | **Live** (`ml/pipeline.py`, `web/src/components/ShapChart.tsx`) |
+| **4. Multi-Disease Risk Assessment** | Siloed, single-task point solutions (e.g., only diabetes or only heart risk). | Unified multi-cohort architecture across 5 clinical domains: Breast Cancer Genomics, Cardiovascular Disease, Diabetes, Parkinson's, and Liver Disease. | **Live** (`data/bundled/`, synthetic cohorts, multi-disease screening) |
+| **5. Separate Patient & Clinician Portals** | One-size-fits-all generic interface that overwhelms patients or under-informs doctors. | **Dual dedicated experiences**: Patient Portal (jargon-free screening, QR sharing, lifestyle guidance) + Clinician CDS Dashboard (conformal sets, threshold sweeps, triage). | **Live** (`/patient` & `/professional` portals with instant switching) |
+| **6. Intelligent Risk Stratification** | Binary 0/1 outcome with uncalibrated probabilities and high false positives. | **5-Tier Clinical Risk Ladder** (Very Low → Very High) combined with **Split Conformal Prediction** coverage guarantees and model abstention on high uncertainty. | **Live** (`backend/platform_core.py`, conformal score thresholds) |
+| **7. Interactive Health Analytics** | Static PDF summaries, basic tabular data, or passive metric cards. | Dynamic **3D DNA Double Helix (Three.js/R3F)**, interactive Bloch Sphere state visualisations, real-time threshold tuners, and dynamic ROC/PR curves. | **Live** (`web/src/components/HelixScene.tsx`, `BlochSpheres.tsx`, SVG charts) |
+| **8. Preventive & Early Risk Identification** | Reactive diagnostics focused on confirmed, late-stage symptomatic pathology. | Proactive early risk biomarker identification, Grantham chemical distance variant scoring, and preventive clinical follow-up recommendations. | **Live** (`ml/features.py`, ClinVar HGVS parsing, tailored follow-up tiers) |
+
+*Note: In line with honest scientific benchmarking, AAROGYAM evaluates quantum feature spaces transparently without claiming artificial quantum supremacy on small classical datasets; where quantum kernels achieve geometric advantage they are weighted favorably, and where exponential concentration occurs, classical estimators provide a safe calibrated fallback.*
+
+---
+
+### 💡 Our Innovation
+
+1. **⚛️ Quantum Intelligence:**  
+   Tabular and genomic markers are mapped into high-dimensional quantum Hilbert spaces using parameterised $ZZFeatureMap$ entangling unitary transformations in IBM Qiskit. Analytical statevector inner products compute exact Gram matrices ($K_{ij} = |\langle\psi(x_i)|\psi(x_j)\rangle|^2$), capturing non-linear feature interactions inaccessible to linear classical kernels.
+
+2. **🔍 Explainable Predictions:**  
+   Every prediction is paired with SHAP (SHapley Additive exPlanations) values to isolate which clinical biomarkers drove risk elevation. Rather than forcing users to trust an opaque score, AAROGYAM breaks down exact percentage contributions (e.g., Fasting Glucose, Grantham Variant Severity, ST-depression slope).
+
+3. **🎯 Actionable Risk Insights:**  
+   Risk scores are mapped into clinical action tiers with split conformal prediction intervals ($1 - \alpha = 90\%$ coverage guarantee). When data points fall near the decision boundary, the system explicitly flags predictive uncertainty and prompts clinician verification rather than making a dangerous guess.
+
+---
+
 ## 📌 Table of Contents
 
+- [🚀 What Makes AAROGYAM Different?](#-what-makes-aarogyam-different)
 - [👥 Team Members](#-team-members-github-ids)
 - [❓ Problem Statement](#-problem-statement)
 - [💡 Proposed Solution](#-proposed-solution)
@@ -39,7 +78,7 @@
 - [🚀 How to Run](#-how-to-run)
 - [🔁 How to Push Code](#-how-to-push-code)
 - [✅ Submission Checklist](#-submission-checklist)
-- [📚 Resources](#-resources)
+- [📚 Resources & Citations](#-resources--citations)
 - [📄 License](#-license)
 
 ---
