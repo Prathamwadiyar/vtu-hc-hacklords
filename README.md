@@ -46,7 +46,7 @@
 | # | Name | GitHub Username | Role | Contact |
 | :-- | :--- | :--- | :--- | :--- |
 | 1 | **Pranali Basarikatti** | `@pranalib2026-cmyk` | Team Lead & Full-Stack / ML | +91 96636 67098 |
-| 2 | **Pratham Wadiyar** | `@pratham-w` | Quantum & Backend Engineer | +91 95133 66591 |
+| 2 | **Pratham Wadiyar** | `@prathamwadiyar` | Quantum & Backend Engineer | +91 95133 66591 |
 | 3 | **Shreya Bhadrashetti** | `@shreyabhadrashetti` | Frontend & UI/UX Developer | +91 97439 44399 |
 
 ---
