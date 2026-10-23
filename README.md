@@ -18,6 +18,7 @@
 | **Team ID** | VTU-QFF-HC-0010 |
 | **Tier** | Both (Online & Offline) |
 | **Live Web App** | **[https://aarogyamhacklords.vercel.app/](https://aarogyamhacklords.vercel.app/)** |
+| **Video Demonstration** | **[Watch on YouTube (Demo Walkthrough)](https://youtu.be/HBQTm-y_lWI)** |
 | **Repository** | [vtu-hc-hacklords](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords.git) |
 | **Organisation** | [vtu-qiskit-fall-fest-2026](https://github.com/vtu-qiskit-fall-fest-2026) |
 | **Event** | VTU-QFF Hackathon — VTU-Qiskit Fall Fest 2026 |
@@ -250,6 +251,7 @@ git push -u target feature/quantum-enhancement
 - [x] Complete quantum machine learning pipeline committed (QSVM, VQC, QNN)
 - [x] Zero-dependency Offline Demo Mode for hackathon jury evaluation
 - [x] Production Docker container & 1-click cloud deployment config verified
+- [x] Video walkthrough submitted: **[https://youtu.be/HBQTm-y_lWI](https://youtu.be/HBQTm-y_lWI)**
 - [x] Code pushed to `main` and verified with automated test suites
 
 ---
