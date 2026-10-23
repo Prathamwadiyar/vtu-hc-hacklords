@@ -4,7 +4,7 @@
 
 **VTU-QFF-HC-0010** &nbsp;|&nbsp; Tier: **Both**
 
-### AAROGYAM — Quantum-Assisted Early Health Risk Intelligence Platform
+### AAROGYAM: Hybrid Quantum-Classical AI System for Early Disease Risk Prediction and Explainable Insights in Preventive Healthcare
 
 </div>
 
@@ -111,7 +111,7 @@ Detecting pathological markers before symptoms become irreversible dramatically 
 ## 💡 Proposed Solution
 
 **Solution:**  
-**AAROGYAM** is an end-to-end Quantum-Assisted Early Health Risk Intelligence Platform combining classical machine learning (Logistic Regression, Random Forest, RBF SVM) with parameterised quantum circuits in IBM Qiskit (Quantum Kernel SVM via ZZFeatureMap, Variational Quantum Classifier, and Data Re-uploading QNN with SPSA optimisation). 
+**AAROGYAM** is an end-to-end hybrid quantum-classical AI system designed to predict early disease risks from multimodal medical data and provide explainable clinical insights for preventive healthcare. It combines classical machine learning (Logistic Regression, Random Forest, RBF SVM) with parameterised quantum circuits in IBM Qiskit (Quantum Kernel SVM via ZZFeatureMap, Variational Quantum Classifier, and Data Re-uploading QNN with SPSA optimisation). 
 
 **Key idea:**  
 Closed-form analytical quantum statevector kernels ($K = |\Psi \Psi^\dagger|^2$) paired with validation-weighted hybrid ensembles, split conformal prediction sets with finite-sample coverage guarantees, and instant browser-side demo intelligence.
