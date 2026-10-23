@@ -18,7 +18,7 @@
 | **Team ID** | VTU-QFF-HC-0010 |
 | **Tier** | Both (Online & Offline) |
 | **Live Web App** | **[https://aarogyamhl.vercel.app/](https://aarogyamhl.vercel.app/)** |
-| **Video Demonstration** | **[Watch on YouTube (Demo Walkthrough)](https://youtu.be/HBQTm-y_lWI)** |
+| **Video Demonstration** | **[Watch on YouTube (Demo Walkthrough)](https://youtu.be/F4ThW7V9Y0U)** |
 | **Presentation Deck** | **[AAROGYAM_QiskitFallFest_Deck.pptx](docs/AAROGYAM_QiskitFallFest_Deck.pptx)** |
 | **Repository** | [vtu-hc-hacklords](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords.git) |
 | **Organisation** | [vtu-qiskit-fall-fest-2026](https://github.com/vtu-qiskit-fall-fest-2026) |
@@ -172,7 +172,7 @@ flowchart TD
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
 ```text
 vtu-hc-hacklords/
@@ -293,7 +293,7 @@ git push -u target feature/quantum-enhancement
 - [x] Complete quantum machine learning pipeline committed (QSVM, VQC, QNN)
 - [x] Zero-dependency Offline Demo Mode for hackathon jury evaluation
 - [x] Production Docker container & 1-click cloud deployment config verified
-- [x] Video walkthrough submitted: **[https://youtu.be/HBQTm-y_lWI](https://youtu.be/HBQTm-y_lWI)**
+- [x] Video walkthrough submitted: **[https://youtu.be/F4ThW7V9Y0U](https://youtu.be/F4ThW7V9Y0U)**
 - [x] Code pushed to `main` and verified with automated test suites
 
 ---
