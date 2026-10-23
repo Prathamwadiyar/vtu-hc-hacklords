@@ -4,6 +4,8 @@
 
 **VTU-QFF-HC-0010** &nbsp;|&nbsp; Tier: **Both**
 
+### AAROGYAM — Quantum-Assisted Early Health Risk Intelligence Platform
+
 </div>
 
 ---
@@ -14,7 +16,7 @@
 | :--- | :--- |
 | **Team** | HackLords |
 | **Team ID** | VTU-QFF-HC-0010 |
-| **Tier** | Both |
+| **Tier** | Both (Online & Offline) |
 | **Repository** | [vtu-hc-hacklords](https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords.git) |
 | **Organisation** | [vtu-qiskit-fall-fest-2026](https://github.com/vtu-qiskit-fall-fest-2026) |
 | **Event** | VTU-QFF Hackathon — VTU-Qiskit Fall Fest 2026 |
@@ -25,102 +27,104 @@
 
 ## 📌 Table of Contents
 
-- [Team Members](#-team-members-github-ids)
-- [Problem Statement](#-problem-statement)
-- [Proposed Solution](#-proposed-solution)
-- [Approach & Architecture](#-approach--architecture)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [How to Run](#-how-to-run)
-- [How to Push Code](#-how-to-push-code)
-- [Submission Checklist](#-submission-checklist)
-- [Resources](#-resources)
-- [License](#-license)
+- [👥 Team Members](#-team-members-github-ids)
+- [❓ Problem Statement](#-problem-statement)
+- [💡 Proposed Solution](#-proposed-solution)
+- [🧩 Approach & Architecture](#-approach--architecture)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🚀 How to Run](#-how-to-run)
+- [🔁 How to Push Code](#-how-to-push-code)
+- [✅ Submission Checklist](#-submission-checklist)
+- [📚 Resources](#-resources)
+- [📄 License](#-license)
 
 ---
 
 ## 👥 Team Members (GitHub IDs)
 
-> Members are added to this repository as **collaborators** and must accept the
-> GitHub invitation before they can push. Add your GitHub username below.
-
-| # | Name | GitHub Username | Role |
-| :-- | :--- | :--- | :--- |
-| 1 | _Add your name_ | _your-github-username_ | _Team Lead_ |
-| 2 | _Add your name_ | _your-github-username_ | _Developer_ |
-| 3 | _Add your name_ | _your-github-username_ | _Developer_ |
-
-<!--
-Optional: add a plain list instead of the table above.
-- @username1
-- @username2
--->
+| # | Name | GitHub Username | Role | Contact |
+| :-- | :--- | :--- | :--- | :--- |
+| 1 | **Pranali Basarikatti** | `@pranalib2026-cmyk` | Team Lead & Full-Stack / ML | +91 96636 67098 |
+| 2 | **Pratham Wadiyar** | `@pratham-w` | Quantum & Backend Engineer | +91 95133 66591 |
+| 3 | **Shreya Bhadrashetti** | `@shreyabhadrashetti` | Frontend & UI/UX Developer | +91 97439 44399 |
 
 ---
 
 ## ❓ Problem Statement
 
-<!--
-State the problem you are solving. Be specific: what is broken or missing,
-who experiences it, and why does it matter. Link to the official problem
-statement from the brief if one applies.
--->
+**Problem:**  
+Early-stage diagnosis of complex chronic diseases (cardiovascular conditions, oncological malignancies, metabolic dysfunction, and neurodegenerative disorders) is frequently hindered by high-dimensional, noisy, or collinear multimodal medical data. Standard clinical models often overfit or make uncalibrated overconfident predictions when biological data is ambiguous or scarce.
 
-**Problem:** _Describe the problem in 2–3 sentences._
+**Why it matters:**  
+Detecting pathological markers before symptoms become irreversible dramatically improves patient survival rates and reduces healthcare costs. However, healthcare practitioners cannot rely on black-box predictions; clinical adoption demands calibrated decision support, explainable biomarkers, and guaranteed abstention when uncertainty is elevated.
 
-**Why it matters:** _Explain the impact or opportunity._
-
-**Track / Category:** _Online / Offline · Track 1 / Track 2 · <domain>_
+**Track / Category:**  
+**Tier: Both** · Healthcare & Life Sciences · Quantum Machine Learning (Qiskit)
 
 ---
 
 ## 💡 Proposed Solution
 
-<!--
-Describe your solution. Keep it concrete: the core idea, the user flow, and
-the quantum/ML technique you are applying.
--->
+**Solution:**  
+**AAROGYAM** is an end-to-end Quantum-Assisted Early Health Risk Intelligence Platform combining classical machine learning (Logistic Regression, Random Forest, RBF SVM) with parameterised quantum circuits in IBM Qiskit (Quantum Kernel SVM via ZZFeatureMap, Variational Quantum Classifier, and Data Re-uploading QNN with SPSA optimisation). 
 
-**Solution:** _In 2–3 sentences, describe what you built._
+**Key idea:**  
+Closed-form analytical quantum statevector kernels ($K = |\Psi \Psi^\dagger|^2$) paired with validation-weighted hybrid ensembles, split conformal prediction sets with finite-sample coverage guarantees, and instant browser-side demo intelligence.
 
-**Key idea:** _The one-line technical summary of your approach._
-
-**Why this works:** _How your approach addresses the problem statement._
+**Why this works:**  
+The platform evaluates quantum kernel geometries across 5 clinical disease cohorts (genomics, hemodynamics, laboratory blood panels, acoustic time-series, and fine-needle aspirates). Where quantum feature spaces yield genuine Hilbert space separation, quantum models provide superior sensitivity; where exponential concentration occurs, the hybrid engine dynamically down-weights quantum contributions, guaranteeing safety and diagnostic reliability.
 
 ---
 
 ## 🧩 Approach & Architecture
 
-<!--
-Walk through how it works. A simple pipeline diagram in text or Mermaid is ideal.
--->
-
 ```mermaid
-flowchart LR
-    A[Input Data] --> B[Preprocessing]
-    B --> C[Quantum Circuit / Model]
-    C --> D[Post-processing]
-    D --> E[Output]
+flowchart TD
+    A["Raw Clinical & Biomarker Inputs<br/>(Genomics, Blood, ECG, Voice, Uploaded CSV)"] --> B["Automated Preprocessing & Cleansing<br/>(Imputation, Tail-clipping, Standardization)"]
+    B --> C["Feature Selection & Dimensionality Reduction<br/>(Mutual Information + PCA to N Qubits)"]
+    
+    C --> D1["Classical ML Baselines<br/>(Logistic Regression, RF, RBF SVM)"]
+    C --> D2["Quantum Encoding Engine<br/>(ZZFeatureMap with All-to-All Entanglement)"]
+    
+    D2 --> E1["Quantum Kernel SVM (QSVM)<br/>Analytical Gram Matrix K = |Ψ Ψ†|²"]
+    D2 --> E2["Variational Quantum Classifier (VQC)<br/>RealAmplitudes Ansatz + COBYLA"]
+    D2 --> E3["Data Re-uploading QNN<br/>Hardware-ready SPSA Optimiser"]
+    
+    D1 --> F["Validation-Weighted Hybrid Ensemble"]
+    E1 --> F
+    E2 --> F
+    E3 --> F
+    
+    F --> G1["Five-Tier Clinical Risk Ladder<br/>(Very Low → Very High)"]
+    F --> G2["Split Conformal Prediction<br/>(Distribution-Free Coverage & Abstention)"]
+    F --> G3["SHAP Feature Attribution<br/>(Biological Explainability)"]
+    
+    G1 --> H["Interactive Healthcare Portals<br/>(Patient Portal, Clinical CDS, Dataset Studio)"]
+    G2 --> H
+    G3 --> H
 ```
 
-1. **Input** — _what data goes in and in what format_
-2. **Preprocessing** — _cleaning, feature extraction, encoding_
-3. **Quantum core** — _the circuit, ansatz, or algorithm used_
-4. **Post-processing** — _decoding, measurement, scoring_
-5. **Output** — _what the user finally gets_
+### Pipeline Flow:
+1. **Input & Ingestion:** Diverse clinical formats—including ClinVar HGVS genomic notation, Cleveland heart hemodynamic parameters, Pima diabetes metrics, and user CSV uploads.
+2. **Preprocessing:** Outlier clipping, median imputation, leak-free variant-level partitioning, and Mutual Information ranking.
+3. **Quantum Core:** Tabular components are scaled to $[0, \pi]$ and encoded into an entangled $N$-qubit register using a closed-form analytical $ZZFeatureMap$.
+4. **Ensemble & Calibration:** A 6-model benchmark suite (3 classical, 3 quantum) evaluated with threshold sweeps for screening sensitivity vs. confirmation specificity.
+5. **Decision Support & Delivery:** Patient screening portal with QR health record sharing, Clinical Decision Support dashboard with 30 synthetic cohorts, and in-browser Dataset Studio with real-time profiling.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-| :--- | :--- |
-| Language | Python 3.11+ |
-| Quantum SDK | Qiskit `>=1.0`, Qiskit Aer, Qiskit Runtime |
-| Optimisation | Qiskit Optimization / COBYLA / SPSA |
-| Simulation | AerSimulator (statevector / noisemodel) |
-| Environment | JupyterLab / VS Code, `venv` |
-| Version control | Git + GitHub |
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Quantum Framework** | **IBM Qiskit `>=2.0`**, `qiskit-machine-learning` | ZZFeatureMap encoding, statevector algebra, VQC, QNN |
+| **Classical ML / AI** | `scikit-learn`, `numpy`, `pandas`, `scipy` | Data preprocessing, Random Forest, SVM, evaluation metrics |
+| **Explainable AI (XAI)**| `shap` (TreeExplainer & KernelExplainer) | Clinically actionable feature contribution attribution |
+| **Backend & APIs** | Python 3.12, **Flask 3.0**, `flask-cors`, Gunicorn | REST endpoints, SQLite demonstration database, session studio |
+| **Frontend UI/UX** | **React 19**, **TypeScript**, **Vite 8**, Vanilla CSS | Responsive healthcare interface, light theme, CSS variables |
+| **Visualisation** | **Three.js**, **React Three Fiber (R3F)**, GSAP | Interactive 3D DNA Double Helix, Bloch Spheres, dynamic SVG charts |
+| **Offline Resilience** | JSON-backed deterministic mock bundles | 100% offline demonstration mode with zero external dependency |
 
 ---
 
@@ -128,21 +132,32 @@ flowchart LR
 
 ```text
 vtu-hc-hacklords/
-├── README.md              # This file
-├── requirements.txt       # Python dependencies
-├── pyproject.toml         # Project metadata (optional)
-├── .gitignore
-├── notebooks/             # Jupyter notebooks for experiments
-│   └── exploration.ipynb
-├── src/
-│   ├── __init__.py
-│   ├── circuit.py         # Quantum circuit construction
-│   ├── optimizer.py       # Optimization loop
-│   └── main.py            # Entry point
-├── data/                  # Datasets (use Git LFS for large files)
-├── tests/                 # Unit tests
-│   └── test_circuit.py
-└── docs/                  # Notes, diagrams, reports
+├── README.md                      # Complete project documentation & submission
+├── Dockerfile                     # Multi-stage production container (Node + Python 3.12)
+├── render.yaml                    # Automated 1-click cloud deployment blueprint
+├── requirements.txt               # Full development dependencies
+├── requirements-runtime.txt       # Production runtime dependencies
+├── backend/                       # Python Flask API & Healthcare Services
+│   ├── app.py                     # REST API endpoints & static SPA server
+│   ├── db.py                      # SQLite healthcare schema & table definitions
+│   ├── services.py                # Patient, Screening, Professional & QR share services
+│   ├── synthetic_cohort.py        # 30-patient deterministic generator & clinical records
+│   ├── platform_core.py           # Multi-dataset evaluation & runtime inference
+│   └── test_stage4_integration.py # Automated end-to-end integration test suite
+├── ml/                            # Machine Learning & Quantum Simulation Core
+│   ├── pipeline.py                # Dataset-agnostic preprocessing & feature selection
+│   ├── quantum.py                 # Analytical ZZFeatureMap, QSVM, VQC, and QNN
+│   ├── features.py                # HGVS genomic parsing & Grantham chemical distance
+│   └── build_dataset.py           # ClinVar de-duplication & variant-level splits
+├── data/bundled/                  # Bundled clinical benchmark datasets
+├── web/                           # Modern React + TypeScript + Vite Frontend
+│   ├── src/
+│   │   ├── components/            # Nav, Footer, HelixScene (3D), BlochSpheres, Stat
+│   │   ├── lib/                   # api.ts (with offline demo fallback), mockData.json
+│   │   ├── pages/                 # Patient, Clinical, Studio, Detect, Method, Screening
+│   │   └── styles/global.css      # Custom light-theme design system tokens
+│   └── package.json
+└── docs/                          # In-depth scientific reports & architecture diagrams
 ```
 
 ---
@@ -150,149 +165,103 @@ vtu-hc-hacklords/
 ## 🚀 How to Run
 
 ### Prerequisites
+- **Python 3.11+** (Python 3.12 recommended)
+- **Node.js 20+** & `npm`
+- **Git**
 
-- Python 3.11 or newer
-- [Git](https://git-scm.com/downloads)
-- A GitHub account (you need collaborator access to this repo)
+---
 
-### 1. Clone the repository
+### Method A: Quick Local Run (Frontend + Built-in Demo Mode)
+
+To run the web interface immediately with full offline interactive demo capabilities:
 
 ```bash
+# 1. Clone repository
 git clone https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords.git
-cd vtu-hc-hacklords
-```
+cd vtu-hc-hacklords/web
 
-### 2. Create a virtual environment
+# 2. Install dependencies & run Vite
+npm install
+npm run dev
+```
+Open **`http://localhost:5173`** in your browser. All screening workflows, 30 patients, charts, and quantum detection features work out of the box.
+
+---
+
+### Method B: Full-Stack Run (Flask Backend + Qiskit Engine + React)
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate        # Linux / macOS
-# .venv\Scripts\activate         # Windows (PowerShell)
+# 1. Setup Python Virtual Environment
+python -m venv .venv
+source .venv/bin/activate       # Linux / macOS
+# .venv\Scripts\activate        # Windows PowerShell
+
+# 2. Install Python dependencies
+pip install -r requirements-runtime.txt
+
+# 3. Start Flask Backend (Port 5001)
+python backend/app.py
+
+# 4. In a separate terminal, launch Web Frontend (Port 5173)
+cd web
+npm install
+npm run dev
 ```
 
-### 3. Install dependencies
+---
+
+### Method C: Docker Container Run
 
 ```bash
-pip install --upgrade pip
-pip install -r requirements.txt
+docker build -t aarogyam .
+docker run -p 8000:8000 aarogyam
 ```
-
-### 4. Run
-
-```bash
-python -m src.main
-```
-
-Or launch the notebook workflow:
-
-```bash
-jupyter lab
-```
-
-### 5. Run the tests
-
-```bash
-pytest -q
-```
+Navigate to **`http://localhost:8000`**.
 
 ---
 
 ## 🔁 How to Push Code
 
-> Full walkthrough: **[Git & Collaboration Handbook](../vtu-hc-guide-git-and-collaboration)** — collaboration
-> workflow, branches, pull requests, reviews and conflict resolution.
-
-### Configure Git (first time only)
-
 ```bash
-git config --global user.name  "Your Name"
-git config --global user.email "you@example.com"
-```
-
-### Everyday workflow
-
-```bash
-# 1. Get the latest changes
+# 1. Fetch latest changes
 git checkout main
-git pull origin main
+git pull target main
 
-# 2. Create a branch for your work
-git checkout -b feature/my-task
+# 2. Create feature branch
+git checkout -b feature/quantum-enhancement
 
-# 3. Commit your work
+# 3. Commit your modifications
 git add .
-git commit -m "feat: add variational circuit for the search problem"
+git commit -m "feat: enhance quantum kernel diagnostics"
 
-# 4. Push the branch
-git push -u origin feature/my-task
-
-# 5. Open a Pull Request on GitHub and request a review
-#    https://github.com/vtu-qiskit-fall-fest-2026/vtu-hc-hacklords/compare/main...feature/my-task
-
-# 6. After approval, merge into main
-git checkout main
-git pull origin main
-git branch -d feature/my-task
+# 4. Push and open pull request
+git push -u target feature/quantum-enhancement
 ```
-
-### Commit message convention
-
-| Prefix | Meaning |
-| :--- | :--- |
-| `feat:` | New feature |
-| `fix:` | Bug fix |
-| `docs:` | Documentation only |
-| `test:` | Adding or fixing tests |
-| `refactor:` | Code restructure, no behaviour change |
-| `chore:` | Build/config/dependency changes |
-
-### Useful commands
-
-```bash
-git status              # what changed
-git log --oneline -10   # recent commits
-git diff                # review changes before committing
-git stash               # shelve changes temporarily
-git pull --rebase       # update your branch on top of main
-```
-
-### Collaborating on the same repo
-
-- **Never push directly to `main`** — open a Pull Request.
-- **Pull before you push** to avoid rejected commits.
-- **Commit often** with clear messages.
-- **Resolve conflicts** locally: `git pull --rebase`, fix the files, then `git add` + `git rebase --continue`.
-- **Ask for a review** before merging — a second pair of eyes catches bugs fast.
 
 ---
 
 ## ✅ Submission Checklist
 
-- [ ] Repository created and **public**
-- [ ] All team members added as **collaborators** and invitations accepted
-- [ ] `README.md` updated with project details, problem statement and solution
-- [ ] Team members listed under [Team Members](#-team-members-github-ids)
-- [ ] `requirements.txt` committed and project runs from a clean clone
-- [ ] Code pushed to `main` and the latest `main` builds successfully
-- [ ] Notebooks committed with **cleared outputs** (or use `nbstrip`)
-- [ ] `README` includes a demo screenshot / video link
-- [ ] Short project summary submitted on the hackathon portal
+- [x] Repository created and **public**
+- [x] All team members added as **collaborators** and listed in README
+- [x] `README.md` updated with comprehensive project details and quantum methodology
+- [x] Team members listed under [Team Members](#-team-members-github-ids)
+- [x] Complete quantum machine learning pipeline committed (QSVM, VQC, QNN)
+- [x] Zero-dependency Offline Demo Mode for hackathon jury evaluation
+- [x] Production Docker container & 1-click cloud deployment config verified
+- [x] Code pushed to `main` and verified with automated test suites
 
 ---
 
-## 📚 Resources
+## 📚 Resources & Citations
 
-| Resource | Link |
-| :--- | :--- |
-| 🔁 Git & collaboration handbook | [Git & Collaboration Handbook](../vtu-hc-guide-git-and-collaboration) |
-| ❓ Problem statements, solutions & terms | [Problem Statements, Solutions & Terms](../vtu-hc-guide-problem-and-solution) |
-| 📄 README writing guide | [README Guide & Template](../vtu-hc-guide-readme-template) |
-| ⚛️ Qiskit documentation | https://docs.quantum.ibm.com/ |
-| ⚛️ Qiskit Runtime & primitives | https://quantum.cloud.ibm.com/docs/ |
-| 🧪 Qiskit Aer simulator | https://docs.quantum.ibm.com/guides/simulator |
-| 💻 IBM Quantum Platform | https://quantum.cloud.ibm.com/ |
-| 🎓 Qiskit textbook | https://qiskit.qotlabs.org/learning/ |
-| 📋 GitHub Docs | https://docs.github.com/ |
+1. **Havlíček et al.** *Supervised learning with quantum-enhanced feature spaces.* Nature 567, 2019.
+2. **Schuld & Killoran.** *Quantum machine learning in feature Hilbert spaces.* PRL 122, 2019.
+3. **Pérez-Salinas et al.** *Data re-uploading for a universal quantum classifier.* Quantum 4, 2020.
+4. **Thanasilp et al.** *Exponential concentration in quantum kernel methods.* Nature Communications 15, 2024.
+5. **Angelopoulos & Bates.** *A gentle introduction to conformal prediction.* 2021.
+6. **Lundberg & Lee.** *A unified approach to interpreting model predictions.* NeurIPS, 2017.
+7. **IBM Qiskit Documentation:** [https://docs.quantum.ibm.com/](https://docs.quantum.ibm.com/)
 
 ---
 
@@ -304,8 +273,8 @@ Released under the [MIT License](LICENSE). See `LICENSE` for details.
 
 <div align="center">
 
-**HackLords** · Team ID `VTU-QFF-HC-0010` · Tier `Both`
-· Built with ⚛️ Qiskit for the VTU-QFF Hackathon
+**HackLords** · Team ID `VTU-QFF-HC-0010` · Tier `Both`  
+Built with ⚛️ IBM Qiskit for the **VTU-Qiskit Fall Fest 2026**
 
 [⬆ Back to Top](#hacklords)
 
